@@ -1,0 +1,21 @@
+panel,model,metric,value_full_precision,sd_full_precision,value_display,sd_display,notes
+A,HeteroSAGE,macro herb-level AUPR,0.682663,0.010937,0.6827 +/- 0.0109,0.0109,Primary sealed-test metric; mean and sample SD across five final seeds.
+A,TCMRGAT,macro herb-level AUPR,0.679919,0.005636,0.6799 +/- 0.0056,0.0056,Primary sealed-test metric; mean and sample SD across five final seeds.
+A,GCN,macro herb-level AUPR,0.679086,0.007807,0.6791 +/- 0.0078,0.0078,Primary sealed-test metric; mean and sample SD across five final seeds.
+A,GraphSAGE,macro herb-level AUPR,0.671462,0.007538,0.6715 +/- 0.0075,0.0075,Primary sealed-test metric; mean and sample SD across five final seeds.
+A,RGCN,macro herb-level AUPR,0.666025,0.008155,0.6660 +/- 0.0082,0.0082,Primary sealed-test metric; mean and sample SD across five final seeds.
+B,HeteroSAGE,Mean macro AUPR difference vs HeteroSAGE,0.000000,,0.0000,,Descriptive difference from HeteroSAGE; no inferential superiority claim.
+B,TCMRGAT,Mean macro AUPR difference vs HeteroSAGE,-0.002744,,-0.0027,,Descriptive difference from HeteroSAGE; no inferential superiority claim.
+B,GCN,Mean macro AUPR difference vs HeteroSAGE,-0.003577,,-0.0036,,Descriptive difference from HeteroSAGE; no inferential superiority claim.
+B,GraphSAGE,Mean macro AUPR difference vs HeteroSAGE,-0.011201,,-0.0112,,Descriptive difference from HeteroSAGE; no inferential superiority claim.
+B,RGCN,Mean macro AUPR difference vs HeteroSAGE,-0.016638,,-0.0166,,Descriptive difference from HeteroSAGE; no inferential superiority claim.
+C,HeteroSAGE,Macro AUROC,0.954339,,0.9543,,Secondary sealed-test metric; descriptive only.
+C,TCMRGAT,Macro AUROC,0.950818,,0.9508,,Secondary sealed-test metric; descriptive only.
+C,GCN,Macro AUROC,0.951542,,0.9515,,Secondary sealed-test metric; descriptive only.
+C,GraphSAGE,Macro AUROC,0.955122,,0.9551,,Secondary sealed-test metric; descriptive only.
+C,RGCN,Macro AUROC,0.951984,,0.9520,,Secondary sealed-test metric; descriptive only.
+C,HeteroSAGE,Recall@50,0.495185,,0.4952,,Secondary sealed-test metric; descriptive only.
+C,TCMRGAT,Recall@50,0.493089,,0.4931,,Secondary sealed-test metric; descriptive only.
+C,GCN,Recall@50,0.491739,,0.4917,,Secondary sealed-test metric; descriptive only.
+C,GraphSAGE,Recall@50,0.485496,,0.4855,,Secondary sealed-test metric; descriptive only.
+C,RGCN,Recall@50,0.479737,,0.4797,,Secondary sealed-test metric; descriptive only.

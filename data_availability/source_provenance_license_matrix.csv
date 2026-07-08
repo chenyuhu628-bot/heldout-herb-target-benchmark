@@ -1,0 +1,8 @@
+source_or_material,role,redistribution_status,licence_or_access_status,notes
+HERB,Third-party source records,raw records not redistributed,obtain from original provider under provider terms,No raw HERB redistribution is claimed.
+ChEMBL,Third-party source records,raw records not redistributed,obtain from original provider under provider terms,Provider terms should be checked by downstream users.
+HGNC,Target namespace support,raw records not redistributed,obtain from original provider under provider terms,Canonical target naming is reflected only in aggregate summaries.
+UniProt,Target identifier support,raw records not redistributed,obtain from original provider under provider terms,Provider terms should be checked by downstream users.
+project-authored code,Review-safe scripts,redistributed,MIT,Limited to public review-safe scripts.
+project-authored documentation/figures,Public documentation and final figures,redistributed,CC BY 4.0 unless otherwise stated,Includes protocols and audit summaries.
+project-authored aggregate source data,Figure/table source data and aggregate metrics,redistributed,CC BY 4.0 unless otherwise stated,Aggregate or source-note records only.

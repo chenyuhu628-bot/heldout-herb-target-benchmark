@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+reproduced_figures/
+aggregate_figure_previews/
+.ipynb_checkpoints/
+*.log
+.env
+.venv/
+venv/

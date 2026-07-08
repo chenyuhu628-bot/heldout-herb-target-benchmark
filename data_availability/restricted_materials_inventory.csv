@@ -1,0 +1,10 @@
+excluded_category,public_release_status,reason,access_boundary
+raw held-out labels,excluded,Protected evaluation boundary.,Not redistributed in the public package.
+raw test positive pairs,excluded,Target-attributable sealed-test records are restricted.,Not redistributed in the public package.
+target-attributable held-out records,excluded,Could expose held-out evaluation labels.,Not redistributed in the public package.
+score matrices,excluded,Prediction-level outputs are restricted.,Not redistributed in the public package.
+prediction matrices,excluded,Prediction-level outputs are restricted.,Not redistributed in the public package.
+model checkpoints,excluded,Checkpoints are not part of the review-safe release.,Not redistributed in the public package.
+controller-held materials,excluded,Controlled materials preserve benchmark integrity.,Managed outside the public package.
+restricted third-party raw source records,excluded,Third-party redistribution rights are provider-specific.,Obtain from original providers.
+third-party raw records with unclear redistribution rights,excluded,Redistribution is not claimed.,Obtain from original providers.

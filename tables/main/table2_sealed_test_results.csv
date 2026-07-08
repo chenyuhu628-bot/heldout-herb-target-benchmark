@@ -1,0 +1,6 @@
+rank,model,mean_macro_aupr,sd_macro_aupr,mean_macro_auroc,mean_recall_at_50,seed_count,evaluation_scope
+1,HeteroSAGE,0.682663,0.010937,0.954339,0.495185,5,one-time sealed test
+2,TCMRGAT,0.679919,0.005636,0.950818,0.493089,5,one-time sealed test
+3,GCN,0.679086,0.007807,0.951542,0.491739,5,one-time sealed test
+4,GraphSAGE,0.671462,0.007538,0.955122,0.485496,5,one-time sealed test
+5,RGCN,0.666025,0.008155,0.951984,0.479737,5,one-time sealed test

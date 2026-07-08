@@ -1,0 +1,7 @@
+material_class,repository_path,public_release_status,licence_scope,notes
+project-authored code,scripts_review_safe/,included,MIT,Review-safe scripts only.
+documentation and protocols,README.md; protocols/; audits_review_safe/,included,CC BY 4.0 unless otherwise stated,Public-facing summaries.
+final figures,figures/main/; figures/supplementary/,included,CC BY 4.0 unless otherwise stated,Official final PDF and PNG files.
+figure source data and source notes,figures/source_data/,included,CC BY 4.0 unless otherwise stated,Aggregate source data or schematic notes.
+tables,tables/,included,CC BY 4.0 unless otherwise stated,Main table CSV files and supplementary workbook.
+aggregate metrics,results_aggregates/,included,CC BY 4.0 unless otherwise stated,Aggregate values only.

@@ -1,0 +1,43 @@
+panel,model,seed,metric,value,mean,sd,count,denominator,display,notes
+A,HeteroSAGE,FINAL_01,seed_level_macro_herb_level_AUPR,0.673734046099,,,,,0.6737,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,HeteroSAGE,FINAL_02,seed_level_macro_herb_level_AUPR,0.670995195207,,,,,0.6710,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,HeteroSAGE,FINAL_03,seed_level_macro_herb_level_AUPR,0.695138225385,,,,,0.6951,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,HeteroSAGE,FINAL_04,seed_level_macro_herb_level_AUPR,0.680644822147,,,,,0.6806,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,HeteroSAGE,FINAL_05,seed_level_macro_herb_level_AUPR,0.69280500194,,,,,0.6928,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,HeteroSAGE,all_final_seeds,mean_macro_herb_level_AUPR,0.6826634581553958,0.6826634581553958,0.0109365028575165,5,,0.6827 +/- 0.0109,Values show mean +/- sample SD across five final seeds.
+A,TCMRGAT,FINAL_01,seed_level_macro_herb_level_AUPR,0.676491961995,,,,,0.6765,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,TCMRGAT,FINAL_02,seed_level_macro_herb_level_AUPR,0.675041257196,,,,,0.6750,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,TCMRGAT,FINAL_03,seed_level_macro_herb_level_AUPR,0.676779210719,,,,,0.6768,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,TCMRGAT,FINAL_04,seed_level_macro_herb_level_AUPR,0.682799528972,,,,,0.6828,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,TCMRGAT,FINAL_05,seed_level_macro_herb_level_AUPR,0.688483120492,,,,,0.6885,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,TCMRGAT,all_final_seeds,mean_macro_herb_level_AUPR,0.6799190158747787,0.6799190158747787,0.00563553120919,5,,0.6799 +/- 0.0056,Values show mean +/- sample SD across five final seeds.
+A,GCN,FINAL_01,seed_level_macro_herb_level_AUPR,0.671321934958,,,,,0.6713,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GCN,FINAL_02,seed_level_macro_herb_level_AUPR,0.669958549494,,,,,0.6700,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GCN,FINAL_03,seed_level_macro_herb_level_AUPR,0.683247113683,,,,,0.6832,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GCN,FINAL_04,seed_level_macro_herb_level_AUPR,0.684485665048,,,,,0.6845,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GCN,FINAL_05,seed_level_macro_herb_level_AUPR,0.68641633059,,,,,0.6864,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GCN,all_final_seeds,mean_macro_herb_level_AUPR,0.6790859187547251,0.6790859187547251,0.0078069849328407,5,,0.6791 +/- 0.0078,Values show mean +/- sample SD across five final seeds.
+A,GraphSAGE,FINAL_01,seed_level_macro_herb_level_AUPR,0.658405340572,,,,,0.6584,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GraphSAGE,FINAL_02,seed_level_macro_herb_level_AUPR,0.673871866949,,,,,0.6739,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GraphSAGE,FINAL_03,seed_level_macro_herb_level_AUPR,0.67219498011,,,,,0.6722,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GraphSAGE,FINAL_04,seed_level_macro_herb_level_AUPR,0.677231195982,,,,,0.6772,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GraphSAGE,FINAL_05,seed_level_macro_herb_level_AUPR,0.675606792151,,,,,0.6756,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,GraphSAGE,all_final_seeds,mean_macro_herb_level_AUPR,0.6714620351527756,0.6714620351527756,0.0075379705197065,5,,0.6715 +/- 0.0075,Values show mean +/- sample SD across five final seeds.
+A,RGCN,FINAL_01,seed_level_macro_herb_level_AUPR,0.653170780731,,,,,0.6532,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,RGCN,FINAL_02,seed_level_macro_herb_level_AUPR,0.664720852345,,,,,0.6647,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,RGCN,FINAL_03,seed_level_macro_herb_level_AUPR,0.666216383203,,,,,0.6662,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,RGCN,FINAL_04,seed_level_macro_herb_level_AUPR,0.673866927155,,,,,0.6739,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,RGCN,FINAL_05,seed_level_macro_herb_level_AUPR,0.672151680797,,,,,0.6722,Review-safe one-time sealed-test final-seed metric; no raw labels or score matrices accessed.
+A,RGCN,all_final_seeds,mean_macro_herb_level_AUPR,0.6660253248461754,0.6660253248461754,0.0081547596563497,5,,0.6660 +/- 0.0082,Values show mean +/- sample SD across five final seeds.
+A/C,HeteroSAGE,all_final_seeds,delta_from_HeteroSAGE_mean,0.0,,,,,0.000000,Delta from HeteroSAGE mean macro herb-level AUPR; descriptive only.
+A/C,TCMRGAT,all_final_seeds,delta_from_HeteroSAGE_mean,-0.002744442280617,,,,,-0.002744,Delta from HeteroSAGE mean macro herb-level AUPR; descriptive only.
+A/C,GCN,all_final_seeds,delta_from_HeteroSAGE_mean,-0.0035775394006706,,,,,-0.003578,Delta from HeteroSAGE mean macro herb-level AUPR; descriptive only.
+A/C,GraphSAGE,all_final_seeds,delta_from_HeteroSAGE_mean,-0.0112014230026201,,,,,-0.011201,Delta from HeteroSAGE mean macro herb-level AUPR; descriptive only.
+A/C,RGCN,all_final_seeds,delta_from_HeteroSAGE_mean,-0.0166381333092203,,,,,-0.016638,Delta from HeteroSAGE mean macro herb-level AUPR; descriptive only.
+B,HeteroSAGE,all_final_seeds,rank_one_seed_count,2,,,2,5,2 / 5,Rank-one counts across five final seeds; descriptive only and not used for post-test model reselection.
+B,TCMRGAT,all_final_seeds,rank_one_seed_count,2,,,2,5,2 / 5,Rank-one counts across five final seeds; descriptive only and not used for post-test model reselection.
+B,GCN,all_final_seeds,rank_one_seed_count,1,,,1,5,1 / 5,Rank-one counts across five final seeds; descriptive only and not used for post-test model reselection.
+B,GraphSAGE,all_final_seeds,rank_one_seed_count,0,,,0,5,0 / 5,Rank-one counts across five final seeds; descriptive only and not used for post-test model reselection.
+B,RGCN,all_final_seeds,rank_one_seed_count,0,,,0,5,0 / 5,Rank-one counts across five final seeds; descriptive only and not used for post-test model reselection.
+C,HeteroSAGE_vs_TCMRGAT,paired_final_seeds,mean_paired_delta_HeteroSAGE_minus_TCMRGAT,0.0027444422806169,0.0027444422806169,0.0093098300310731,5,5,0.002744,Descriptive paired seed comparison; no p-value computed and no inferential superiority claim.
+C,HeteroSAGE_vs_TCMRGAT,paired_final_seeds,seed_direction_counts,,,,,5,HeteroSAGE > TCMRGAT in 2/5; TCMRGAT > HeteroSAGE in 3/5,Seed-level direction counts are descriptive only.

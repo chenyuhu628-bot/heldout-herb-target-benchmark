@@ -1,0 +1,58 @@
+path,file_type,description,public_release_status,licence_scope,notes
+.gitignore,text,Git ignore rules for local generated files and environment artifacts.,public,MIT,Repository-relative path.
+CHECKSUMS_SHA256.txt,text,SHA256 checksums for repository files except this checksum file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+CITATION.cff,citation metadata,Citation metadata.,public,metadata,Repository-relative path.
+DATA_LICENSE.md,markdown,Data licence and redistribution boundary.,public,mixed,Repository-relative path.
+LICENSE,text,MIT License for project-authored code.,public,MIT,Repository-relative path.
+MANIFEST.csv,csv,Repository file manifest.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+README.md,markdown,Public repository overview and quickstart.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audits_review_safe/claim_consistency_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audits_review_safe/file_inventory_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audits_review_safe/no_post_test_selection_statement.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audits_review_safe/restricted_materials_exclusion_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audits_review_safe/validation_only_vs_sealed_test_boundary_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+data_availability/controlled_access_statement.md,markdown,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+data_availability/data_availability_statement.md,markdown,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+data_availability/public_materials_inventory.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+data_availability/restricted_materials_inventory.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+data_availability/source_provenance_license_matrix.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+environment/requirements_review_safe.txt,text,Review-safe Python requirements.,public,MIT,Repository-relative path.
+figures/main/figure1.pdf,pdf,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure1.png,png,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure2.pdf,pdf,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure2.png,png,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure3.pdf,pdf,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure3.png,png,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/figure1_source_notes.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/figure2_source_notes.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/figure3_source_data.csv,csv,Figure 3 source data with full-precision aggregate values and display values.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/supplementary_figure_S1_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/supplementary_figure_S2_source_notes.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/supplementary_figure_S3_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/supplementary_figure_S4_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/supplementary_figure_S5_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S1.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S1.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S2.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S2.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S3.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S3.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S4.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S4.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S5.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/supplementary/supplementary_figure_S5.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+protocols/frozen_protocol_summary.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+protocols/metric_contract_review_safe.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+protocols/model_selection_policy_review_safe.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+protocols/split_and_leakage_control_summary.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+protocols/validation_only_diagnostics_summary.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+results_aggregates/nn_stress_validation_metrics.csv,csv,Aggregate metric file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+results_aggregates/rank_uncertainty_metrics.csv,csv,Aggregate metric file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+results_aggregates/sealed_test_graph_model_aggregate_metrics.csv,csv,Full-precision sealed-test aggregate graph-model metrics.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+results_aggregates/validation_simple_baseline_metrics.csv,csv,Aggregate metric file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+scripts_review_safe/README.md,markdown,Review-safe utility script or script documentation.,public,MIT,Repository-relative path.
+scripts_review_safe/plot_aggregate_figure_previews.py,python,Review-safe aggregate figure-preview generator.,public,MIT,Repository-relative path.
+scripts_review_safe/verify_checksums.py,python,Review-safe utility script or script documentation.,public,MIT,Repository-relative path.
+tables/main/table1_benchmark_summary.csv,csv,Table source file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+tables/main/table2_sealed_test_results.csv,csv,Table source file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+tables/supplementary/supplementary_tables.xlsx,xlsx,Table source file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.

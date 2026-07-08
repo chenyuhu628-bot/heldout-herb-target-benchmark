@@ -1,0 +1,17 @@
+panel,element,description,notes
+Global,figure type,Schematic conceptual graph-schema and evaluation-setup figure.,Non-numeric source notes only; the locked PNG is the visual ground truth.
+A,heterogeneous graph node types,"The graph schema depicts herbs, compounds, and targets as distinct node classes with separate visual encodings.",Defines the entities used in the evidence-stratified graph.
+A,herb-compound relation,Green dashed herb-compound edges represent label-free herb context.,Used for herb context without requiring held-out herb-target labels.
+A,herb-target relation,Blue dashed herb-target edges represent train-only herb-target supervision.,The figure notes this supervision is not used for held-out herb encoding.
+A,compound-target relation,Orange compound-target edges represent evidence-stratified context connecting compounds to targets.,Supports target scoring through shared graph context.
+A,target-target relation,Blue solid target-target edges represent shared target context.,Provides target-side graph structure.
+A,relation-role legend,The relation table links each edge type to its graphical style and role in the graph schema.,Preserves relation labels and interpretation.
+B,training graph,"The training graph panel shows train herbs connected to compounds and targets, with validation and test herbs excluded.",Defines the train-only supervision boundary.
+B,held-out herb query,The held-out herb query panel shows an unseen herb encoded through allowed label-free herb-compound context and shared compound/target graph context.,Represents the inductive query setup for held-out herbs.
+B,forbidden held-out labels,Red dashed held-out herb-target links are marked as forbidden during scoring.,Specifies that held-out herb-target labels are not available during query encoding or scoring.
+B,shared frozen graph context,The figure states that compounds and targets are shared frozen graph context.,Clarifies the transductive context used while the held-out herb remains label-free.
+B,all-candidate target scoring setup,The target scoring block ranks candidate targets for the held-out herb over the shared graph context.,Evaluation labels are applied only after scoring.
+B,post-scoring evaluation boundary,The bottom callout states that evaluation labels are applied after scoring.,Separates model scoring from later evaluation-label use.
+C,generalization scope,"The scope table distinguishes evaluated held-out herbs, shared compound and target context, unseen targets, and fully inductive all-graph learning.","Clarifies what is evaluated, used as context, not evaluated, or not claimed."
+C,positive-unlabeled ranking semantics,The ranking schematic shows a held-out herb mapped to ranked candidate targets with recorded positives distinguished from unlabeled comparison candidates.,Unrecorded pairs are explicitly not treated as confirmed negatives.
+C,primary metric callout,The bottom callout states the primary metric as macro herb-level AUPR over all candidate targets per held-out herb.,"Metric statement is part of the conceptual evaluation setup, not a generated results table."

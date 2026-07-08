@@ -1,0 +1,6 @@
+formal_rank,model,mean_macro_aupr,sd_macro_aupr,delta_from_top,expected_delta_from_top_check,abs_delta_as_fraction_of_model_sd,signed_delta_relative_to_pooled_sd,coefficient_of_variation,inferential_superiority_claimed,descriptive_interpretation
+1,HeteroSAGE,0.6826634581553958,0.0109365028575165,0.0,0.0,0.0,0.0,0.016020343152785256,False,Top observed mean by predeclared primary metric.
+2,TCMRGAT,0.6799190158747787,0.00563553120919,-0.0027444422806170987,-0.0027444422806170987,0.4869891016026438,-0.31546740399438894,0.008288533012919734,False,Observed mean below top; difference interpreted descriptively relative to seed dispersion.
+3,GCN,0.6790859187547251,0.0078069849328407,-0.0035775394006706263,-0.0035775394006706263,0.4582485340302661,-0.3765245779500115,0.011496313967394246,False,Observed mean below top; difference interpreted descriptively relative to seed dispersion.
+4,GraphSAGE,0.6714620351527756,0.0075379705197065,-0.01120142300262017,-0.01120142300262017,1.48599984217719,-1.1926261406111829,0.011226205094367562,False,Observed mean below top; difference interpreted descriptively relative to seed dispersion.
+5,RGCN,0.6660253248461754,0.0081547596563497,-0.01663813330922037,-0.01663813330922037,2.0402972019249024,-1.7247970874123613,0.012243918289793434,False,Observed mean below top; difference interpreted descriptively relative to seed dispersion.

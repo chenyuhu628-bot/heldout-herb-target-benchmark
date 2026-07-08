@@ -1,0 +1,7 @@
+section,value,notes
+Target universe,"2,309 package human targets",HGNC canonical target namespace
+Eligible herbs,"1,246 benchmark-eligible herbs",H0847 quarantined
+Train split,"535 herbs; 339 groups; 69,053 positives",Training graph supervision
+Validation split,"67 herbs; 67 groups; 8,632 positives",Validation-only model selection and diagnostics
+Test split,"67 herbs; 67 groups; 8,632 positives",One-time sealed test
+Context-only herbs,577 excluded from formal supervision,Not used as supervised benchmark herbs

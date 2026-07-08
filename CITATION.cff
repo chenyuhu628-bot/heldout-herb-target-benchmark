@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If this repository supports your work, please cite it using these metadata."
+title: "Leakage-controlled held-out-herb target prioritization benchmark"
+authors:
+  - family-names: Hu
+    given-names: Chenyu
+version: v1.0.0-submission
+repository-code: "https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark"
+license: MIT

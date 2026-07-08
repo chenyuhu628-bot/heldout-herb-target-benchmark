@@ -1,0 +1,6 @@
+model,metric_scope,macro_aupr_mean,macro_aupr_sample_sd,macro_auroc_mean,recall_at_50_mean,delta_from_HeteroSAGE,rank_primary_metric,interpretation
+HeteroSAGE,one-time sealed test,0.682663,0.010937,0.954339,0.495185,0.000000,1,highest observed mean; descriptive only
+TCMRGAT,one-time sealed test,0.679919,0.005636,0.950818,0.493089,-0.002744,2,ranked second; descriptive only
+GCN,one-time sealed test,0.679086,0.007807,0.951542,0.491739,-0.003577,3,close to top two; descriptive only
+GraphSAGE,one-time sealed test,0.671462,0.007538,0.955122,0.485496,-0.011201,4,descriptive only
+RGCN,one-time sealed test,0.666025,0.008155,0.951984,0.479737,-0.016638,5,descriptive only
