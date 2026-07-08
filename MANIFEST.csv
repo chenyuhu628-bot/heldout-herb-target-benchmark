@@ -1,4 +1,5 @@
 path,file_type,description,public_release_status,licence_scope,notes
+.gitattributes,text,Git attributes enforcing stable LF text checkout and binary handling.,public,MIT,Repository-relative path.
 .gitignore,text,Git ignore rules for local generated files and environment artifacts.,public,MIT,Repository-relative path.
 CHECKSUMS_SHA256.txt,text,SHA256 checksums for repository files except this checksum file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 CITATION.cff,citation metadata,Citation metadata.,public,metadata,Repository-relative path.
