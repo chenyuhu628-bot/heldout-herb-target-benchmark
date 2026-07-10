@@ -64,6 +64,8 @@ The preview-generation script reads only public files under `figures/source_data
 
 ## Citation
 
+The versioned review-safe aggregate reproducibility package is available through the [GitHub release](https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark/releases/tag/v1.0.1-submission) and the [Zenodo record](https://zenodo.org/records/21287303). Cite the version DOI [10.5281/zenodo.21287303](https://doi.org/10.5281/zenodo.21287303) for this release. The concept DOI [10.5281/zenodo.21287302](https://doi.org/10.5281/zenodo.21287302) resolves to the Zenodo record across versions.
+
 Please cite the repository metadata in `CITATION.cff`. Manuscript citation details should follow the final published article once available.
 
 ## Licence
