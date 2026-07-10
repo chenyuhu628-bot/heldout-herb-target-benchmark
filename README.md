@@ -5,10 +5,12 @@ This repository provides review-safe materials supporting a leakage-controlled h
 It supports:
 
 - inspection of frozen protocols
-- inspection of aggregate metrics
+- inspection of aggregate sealed-test metrics
+- inspection of validation-only diagnostic aggregates
+- inspection of figure and table source data or source notes
+- inspection of public provenance and audit summaries
+- checksum verification
 - review-safe reproduction of aggregate figure previews from public source data
-- inspection of final figure/table source data
-- inspection of public audit summaries
 
 It does not contain:
 

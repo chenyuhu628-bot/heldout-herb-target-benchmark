@@ -18,13 +18,13 @@ data_availability/public_materials_inventory.csv,csv,Data availability inventory
 data_availability/restricted_materials_inventory.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 data_availability/source_provenance_license_matrix.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 environment/requirements_review_safe.txt,text,Review-safe Python requirements.,public,MIT,Repository-relative path.
-figures/main/figure1.pdf,pdf,Corrected final Figure 1 PDF with target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/main/figure1.png,png,Corrected final Figure 1 PNG with target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure1.pdf,pdf,Final Figure 1 PDF with target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure1.png,png,Final Figure 1 PNG with target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/main/figure2.pdf,pdf,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/main/figure2.png,png,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/main/figure3.pdf,pdf,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/main/figure3.png,png,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/source_data/figure1_source_notes.csv,csv,Corrected Figure 1 source notes for target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/source_data/figure1_source_notes.csv,csv,Figure 1 source notes for target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/source_data/figure2_source_notes.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/source_data/figure3_source_data.csv,csv,Figure 3 source data with full-precision aggregate values and display values.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/source_data/supplementary_figure_S1_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
