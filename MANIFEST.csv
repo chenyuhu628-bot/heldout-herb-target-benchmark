@@ -12,18 +12,24 @@ audits_review_safe/file_inventory_audit.md,markdown,Public audit summary.,public
 audits_review_safe/no_post_test_selection_statement.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 audits_review_safe/restricted_materials_exclusion_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 audits_review_safe/validation_only_vs_sealed_test_boundary_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audit/submission_package_refresh/01_repository_audit.csv,csv,Submission-refresh audit findings.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audit/submission_package_refresh/02_repository_audit_summary.md,markdown,Submission-refresh audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audit/submission_package_refresh/03_files_to_delete.csv,csv,Submission-refresh obsolete-file assessment.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audit/submission_package_refresh/04_manifest_checksum_report.md,markdown,Submission-refresh manifest and checksum report.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audit/submission_package_refresh/05_final_consistency_report.md,markdown,Submission-refresh final-consistency report.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+audit/submission_package_refresh/06_change_summary.md,markdown,Submission-refresh release notes and change summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 data_availability/controlled_access_statement.md,markdown,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 data_availability/data_availability_statement.md,markdown,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 data_availability/public_materials_inventory.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 data_availability/restricted_materials_inventory.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 data_availability/source_provenance_license_matrix.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 environment/requirements_review_safe.txt,text,Review-safe Python requirements.,public,MIT,Repository-relative path.
-figures/main/figure1.pdf,pdf,Final Figure 1 PDF with target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/main/figure1.png,png,Final Figure 1 PNG with target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure1.pdf,pdf,Final Figure 1 PDF: source records, benchmark construction, split blocking, frozen workflow, and sealed evaluation.,public,CC BY 4.0 unless otherwise stated,Repository-relative path; SHA-256 is listed in CHECKSUMS_SHA256.txt.
+figures/main/figure1.png,png,Final Figure 1 PNG: source records, benchmark construction, split blocking, frozen workflow, and sealed evaluation.,public,CC BY 4.0 unless otherwise stated,Repository-relative path; SHA-256 is listed in CHECKSUMS_SHA256.txt.
 figures/main/figure2.pdf,pdf,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/main/figure2.png,png,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/main/figure3.pdf,pdf,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/main/figure3.png,png,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+figures/main/figure3.pdf,pdf,Final Figure 3 PDF: sealed-test AUPR comparison and descriptive secondary metrics.,public,CC BY 4.0 unless otherwise stated,Repository-relative path; SHA-256 is listed in CHECKSUMS_SHA256.txt.
+figures/main/figure3.png,png,Final Figure 3 PNG: sealed-test AUPR comparison and descriptive secondary metrics.,public,CC BY 4.0 unless otherwise stated,Repository-relative path; SHA-256 is listed in CHECKSUMS_SHA256.txt.
 figures/source_data/figure1_source_notes.csv,csv,Figure 1 source notes for target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/source_data/figure2_source_notes.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
 figures/source_data/figure3_source_data.csv,csv,Figure 3 source data with full-precision aggregate values and display values.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.

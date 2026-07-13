@@ -4,9 +4,6 @@ title: "Leakage-controlled held-out-herb target prioritization benchmark"
 authors:
   - family-names: Hu
     given-names: Chenyu
-version: v1.0.1-submission
-date-released: 2026-07-10
-doi: 10.5281/zenodo.21287303
+version: v1.1-submission-refresh
 repository-code: "https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark"
-url: "https://zenodo.org/records/21287303"
 license: MIT

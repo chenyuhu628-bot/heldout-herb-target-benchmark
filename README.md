@@ -64,9 +64,15 @@ The preview-generation script reads only public files under `figures/source_data
 
 ## Citation
 
-The versioned review-safe aggregate reproducibility package is available through the [GitHub release](https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark/releases/tag/v1.0.1-submission) and the [Zenodo record](https://zenodo.org/records/21287303). Cite the version DOI [10.5281/zenodo.21287303](https://doi.org/10.5281/zenodo.21287303) for this release. The concept DOI [10.5281/zenodo.21287302](https://doi.org/10.5281/zenodo.21287302) resolves to the Zenodo record across versions.
+The previous archived release, `v1.0.1-submission`, is available through its [GitHub release](https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark/releases/tag/v1.0.1-submission) and [Zenodo record](https://zenodo.org/records/21287303), version DOI [10.5281/zenodo.21287303](https://doi.org/10.5281/zenodo.21287303). The concept DOI [10.5281/zenodo.21287302](https://doi.org/10.5281/zenodo.21287302) resolves to the Zenodo record across versions. This submission refresh does not state a new Zenodo version DOI before Zenodo creates one.
 
 Please cite the repository metadata in `CITATION.cff`. Manuscript citation details should follow the final published article once available.
+
+## Source Provenance
+
+Herb-related records used for Benchmark v1 were obtained from Dryad, DOI [10.5061/dryad.wh70rxwx9](https://doi.org/10.5061/dryad.wh70rxwx9), version 6. The Benchmark v1 herb-target source file was byte-identical to the Dryad-distributed file, which contains 89,775 data rows and has SHA-256 `a8087d72de7306fbbeeedf274069af9e78800406da3a6dedf6e97311adfab868`.
+
+Dryad documentation attributes the herb-target and herb-compound records to HIT 2.0. HIT 2.0 is therefore retained as upstream attribution rather than as the direct source of the Benchmark v1 files.
 
 ## Licence
 
