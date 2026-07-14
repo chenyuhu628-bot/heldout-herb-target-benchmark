@@ -1,6 +1,7 @@
 path,file_type,description,public_release_status,licence_scope,notes
 .gitattributes,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
 .gitignore,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+.zenodo.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
 CITATION.cff,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
 DATA_LICENSE.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
 LICENSE,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.

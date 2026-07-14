@@ -107,7 +107,7 @@ For a fast non-GPU check of the public labels, axes, checkpoints, 25 score matri
 
 ## Citation
 
-This release is archived on Zenodo at https://doi.org/10.5281/zenodo.21352219. Cite this version-specific archive, rather than the earlier v1.1 archive, when referring to the public test labels or score matrices. The code repository is https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark.
+Use the repository tag `v1.2-open-reproducibility` when referring to the public test labels, checkpoints, or score matrices. The Zenodo version DOI is intentionally not stated in this package before Zenodo publishes the archive. The code repository is https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark.
 
 ## Important limitation
 

@@ -9,7 +9,4 @@ authors:
   - family-names: Zhang
     given-names: Xinyou
 repository-code: "https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark"
-identifiers:
-  - type: doi
-    value: "10.5281/zenodo.21352219"
 abstract: "Open reproducibility release containing a fixed public herb-target test set, frozen graph inputs, selected checkpoints, score matrices, and independent evaluation code."

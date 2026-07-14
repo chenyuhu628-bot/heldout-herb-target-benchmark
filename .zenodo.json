@@ -1,0 +1,24 @@
+{
+  "title": "A held-out-herb target-prioritization benchmark with prespecified leakage controls and compound-profile similarity diagnostics",
+  "version": "v1.2-open-reproducibility",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "other-open",
+  "creators": [
+    {
+      "name": "Hu, Chenyu",
+      "affiliation": "School of Intelligent Medicine and Information Engineering, Jiangxi University of Chinese Medicine"
+    },
+    {
+      "name": "Zhang, Xinyou",
+      "affiliation": "School of Intelligent Medicine and Information Engineering, Jiangxi University of Chinese Medicine"
+    }
+  ],
+  "description": "Open reproducibility release containing a fixed public herb-target test set, frozen graph inputs, selected checkpoints, complete score matrices, and independent evaluation code. The archive-level license is Other (Open); project code remains MIT-licensed, while source-derived data, checkpoints, score matrices, and results remain governed by the source-specific terms documented in DATA_LICENSE.md.",
+  "keywords": [
+    "herb-target prioritization",
+    "reproducibility",
+    "graph learning",
+    "public fixed test set"
+  ]
+}

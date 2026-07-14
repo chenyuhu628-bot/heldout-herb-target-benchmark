@@ -4,7 +4,7 @@ The frozen benchmark split, split and graph-isolation records, fixed public test
 
 Repository: https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark
 
-Zenodo version-specific DOI: https://doi.org/10.5281/zenodo.21352219
+The Zenodo version DOI is intentionally not stated in this package before Zenodo publishes the archive.
 
 The public fixed test set contains 67 herbs and 8,632 recorded-positive herb-target pairs, evaluated against 2,309 candidate targets. The labels are directly available in data/labels/test_positive_pairs_v1.csv; no access application is required. The public test set is no longer a blinded held-out test and must not be used for model selection, hyperparameter tuning, checkpoint selection, or post hoc method development.
 

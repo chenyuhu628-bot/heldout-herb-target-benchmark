@@ -72,4 +72,4 @@
 
 ## 归档状态
 
-本版本的 Zenodo version-specific DOI 为 https://doi.org/10.5281/zenodo.21352219。v1.1 归档保持不变；在论文中提及公开测试标签或分数矩阵时，应引用本 v1.2 版本而不是 v1.1。完整发布核对清单见 release_notes/UPLOAD_CHECKLIST_v1.2.md。
+本版本在 Zenodo 归档发布前不在包内声明 version-specific DOI。v1.1 归档保持不变；在论文中提及公开测试标签或分数矩阵时，应引用本 v1.2 版本而不是 v1.1。完整发布核对清单见 release_notes/UPLOAD_CHECKLIST_v1.2.md。
