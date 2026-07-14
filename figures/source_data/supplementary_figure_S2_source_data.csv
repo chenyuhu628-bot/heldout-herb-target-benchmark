@@ -1,0 +1,18 @@
+panel,item,status_or_access
+A,Fixed split and registries,Public; 535 / 67 / 67 herbs
+A,Recorded-positive test labels,"Public; 8,632 pairs"
+A,Candidate target universe,"Public; 2,309 targets"
+A,Frozen graph snapshot,Public; package-contained
+A,Best checkpoints,Public; 25 frozen weights
+A,Score matrices and metrics,Public; 25 matrices + scripts
+B,Dryad source tables,Fetch from Dryad v6 (DOI recorded)
+B,ChEMBL source records,Fetch from provider; attribution retained
+B,HGNC / UniProt / STRING records,Fetch from original providers
+B,Provider credentials or private accounts,Not included
+B,Historical sealed-access controls,Not active in v1.2
+C,Verify package integrity,Run checksum verifier
+C,Reproduce frozen scores,Run public checkpoint scorer
+C,Evaluate any compatible model,Submit NPZ with fixed axes
+C,Inspect raw logits / labels,Load public matrices and label CSV
+C,Model selection,Not permitted after public-test release
+global,Release boundary,Public fixed test; historical sealed evaluation occurred before disclosure; no post-release model selection.

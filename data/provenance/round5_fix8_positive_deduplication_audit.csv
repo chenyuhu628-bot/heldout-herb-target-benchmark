@@ -1,0 +1,3 @@
+canonical_target_id,merged_current_target_ids,unique_pairs_before_merge,unique_pairs_after_merge,duplicate_canonical_pairs_removed,source_provenance_preserved,resolution
+ABCC3,MRP3;ABCC3,12,12,0,True,merge after authority mapping; deduplicate canonical herb-target pair
+CDKN1B,P27 KIP1;CDKN1B,210,174,36,True,merge after authority mapping; deduplicate canonical herb-target pair

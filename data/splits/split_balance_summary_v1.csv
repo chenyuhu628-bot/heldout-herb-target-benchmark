@@ -1,0 +1,4 @@
+partition,actual_positive_herb_count,target_positive_herb_count,absolute_deviation,actual_proportion,target_proportion,group_count
+train,535,535,0,0.7997010463378177,0.8,339
+validation,67,67,0,0.10014947683109118,0.1,67
+test,67,67,0,0.10014947683109118,0.1,67

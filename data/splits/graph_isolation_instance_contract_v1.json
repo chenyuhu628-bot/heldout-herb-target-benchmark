@@ -1,0 +1,11 @@
+{
+  "version": "graph_isolation_instance_contract_v1",
+  "train_herb_allowlist_hash": "0e1b33fdeb11824fe9a3811ccdccad7e7d654210702bbd4901dfd0d0ff291e11",
+  "validation_registry_hash": "be7dc213ab0e294d40e8560286a732338cbce56a6f01176a9326a2326791be04",
+  "test_registry_hash": "fe732991fee937a012dd1ab81daaafb4982dbd9706530200da792206f5874699",
+  "context_only_exclusion_hash": "906e4720d298dfc4aa05bf34c8c3a8cabfa930a2e361a34457244688f936e6c3",
+  "quarantine_exclusion_hash": "1e1045d9dccee5efa37d8eef3ced56185443db6620f0c9023aab2b753e044abb",
+  "future_endpoint_filter_rule": "Retain herb endpoints only when herb_id is present in the train allowlist; remove every incident herb-context and herb-target edge for excluded herbs.",
+  "validation_rule": "validation and test registries must be disjoint from the train allowlist",
+  "actual_graph_materialization_executed": false
+}

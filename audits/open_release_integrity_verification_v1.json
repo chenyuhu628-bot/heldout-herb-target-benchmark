@@ -1,0 +1,13 @@
+{
+  "candidate_target_count": 2309,
+  "checkpoint_count": 25,
+  "checkpoint_metadata_paths_redacted": true,
+  "error_count": 0,
+  "errors": [],
+  "historical_metric_comparison_count": 275,
+  "passed": true,
+  "recorded_positive_pair_count": 8632,
+  "score_artifact_count": 25,
+  "test_herb_count": 67,
+  "version": "open_release_integrity_verification_v1"
+}

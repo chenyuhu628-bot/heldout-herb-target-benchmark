@@ -1,0 +1,16 @@
+{
+  "historical_state": "The test labels were sealed during the original one-time evaluation and are public from this release onward.",
+  "recorded_positive_pair_count": 8632,
+  "release_state": "public_fixed_test_release",
+  "source_container_member_names": [
+    "sealed_test_positive_herbs_v1.csv",
+    "sealed_test_positive_pairs_v1.csv"
+  ],
+  "source_container_sha256": "d9498c63732774dd4675bd63cb351e3639e7ee87a5e4dee3458ac842980cd66b",
+  "test_herb_count": 67,
+  "test_label_files": {
+    "test_positive_herbs_v1.csv": "f9182cc0b3f7b998560320369af7310aeeda5abc4558ced3bffd86d67323cebc",
+    "test_positive_pairs_v1.csv": "ab151b0ead0865771df5cfa1376d5ae32488e32b4334eb3a1606b9ecaf9207a1"
+  },
+  "version": "test_label_release_manifest_v1"
+}

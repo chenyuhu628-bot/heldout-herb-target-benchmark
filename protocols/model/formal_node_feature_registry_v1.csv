@@ -1,0 +1,6 @@
+node_type,source,representation,dimension,trainable,missing_rule,smoke_only_excluded_from_formal
+herb,label-free herb-compound context,mean of shared compound embeddings,config hidden_dim,True,HARD_ERROR,False
+compound,no frozen scientific feature asset,shared trainable transductive embedding,config hidden_dim,True,N/A,False
+target,no frozen scientific feature asset,shared trainable transductive embedding,config hidden_dim,True,N/A,False
+query_herb,label-free herb-compound context,same mean function as train herb,config hidden_dim,False,HARD_ERROR,False
+C3_ID_hash,deterministic_feature(node_id),ENGINEERING_SMOKE_ONLY,32,False,N/A,True

@@ -1,0 +1,154 @@
+{
+  "version": "group_aware_split_protocol_v1",
+  "status": "PROTOCOL_PREREGISTERED_NO_SPLIT_CREATED",
+  "assignment_unit": "split_blocking_group_id",
+  "herb_level_independent_assignment_allowed": false,
+  "eligible_benchmark_herb_requirements": [
+    "benchmark_eligible == True",
+    "at least one unique positive pair in the frozen positive universe",
+    "herb belongs to the frozen clean herb universe",
+    "herb belongs to exactly one split-blocking group",
+    "herb is not in benchmark quarantine"
+  ],
+  "ratios": {
+    "train": 0.8,
+    "validation": 0.1,
+    "test": 0.1
+  },
+  "integer_target_rule": "largest remainder method; equal remainders use train, validation, test order",
+  "frozen_integer_positive_herb_targets": {
+    "train": 535,
+    "validation": 67,
+    "test": 67
+  },
+  "fixed_degree_bins": [
+    {
+      "label": "D01_1_4",
+      "lower_inclusive": 1,
+      "upper_inclusive": 4
+    },
+    {
+      "label": "D02_5_9",
+      "lower_inclusive": 5,
+      "upper_inclusive": 9
+    },
+    {
+      "label": "D03_10_19",
+      "lower_inclusive": 10,
+      "upper_inclusive": 19
+    },
+    {
+      "label": "D04_20_49",
+      "lower_inclusive": 20,
+      "upper_inclusive": 49
+    },
+    {
+      "label": "D05_50_99",
+      "lower_inclusive": 50,
+      "upper_inclusive": 99
+    },
+    {
+      "label": "D06_100_199",
+      "lower_inclusive": 100,
+      "upper_inclusive": 199
+    },
+    {
+      "label": "D07_200_399",
+      "lower_inclusive": 200,
+      "upper_inclusive": 399
+    },
+    {
+      "label": "D08_400_PLUS",
+      "lower_inclusive": 400,
+      "upper_inclusive": null
+    }
+  ],
+  "allowed_assignment_features": [
+    "benchmark-positive herb count in group",
+    "positive-pair count in group",
+    "fixed positive-degree-bin counts",
+    "total group size",
+    "deterministic seed tie-break key"
+  ],
+  "forbidden_assignment_features": [
+    "target identity or specific target-ID distribution",
+    "compound identity",
+    "herb name",
+    "model predictions",
+    "formal_v6 partition",
+    "any test metric"
+  ],
+  "deterministic_seed": 249565171,
+  "deterministic_tie_break_key": "SHA-256(\"<derived_seed>|<split_blocking_group_id>\") interpreted as lowercase hex",
+  "initial_group_order": [
+    "benchmark_positive_herb_count descending",
+    "positive_pair_count descending",
+    "total_group_member_count descending",
+    "deterministic tie-break key ascending"
+  ],
+  "objective": {
+    "type": "strict lexicographic minimization",
+    "components_in_order": [
+      "maximum absolute positive-herb-count deviation",
+      "sum absolute positive-herb-count deviation",
+      "sum positive-edge proportion deviation",
+      "sum fixed degree-bin distribution deviation",
+      "sum group-count proportion deviation",
+      "assignment signature"
+    ],
+    "positive_herb_count_deviation": "For each side, absolute current or final count minus its frozen integer target.",
+    "positive_edge_proportion_deviation": "Sum over sides of abs(current or final side edges / all eligible edges - ratio).",
+    "degree_bin_distribution_deviation": "For each D01-D08 bin with nonzero global count, sum over sides of abs(side bin herbs / global bin herbs - ratio), then sum over bins.",
+    "group_count_proportion_deviation": "Sum over sides of abs(side group count / all assignable groups - ratio).",
+    "assignment_signature": "SHA-256 of LF-joined '<group_id>=<side>' records sorted by group ID; for partial greedy states include assigned groups only and no trailing LF."
+  },
+  "initialization": {
+    "method": "single deterministic greedy pass",
+    "side_candidate_order": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "decision_rule": "choose the side producing the smallest complete lexicographic objective"
+  },
+  "local_improvement": {
+    "operations": [
+      "single-group move",
+      "pairwise cross-side group swap"
+    ],
+    "group_traversal_order": "split_blocking_group_id ascending",
+    "destination_side_order": [
+      "train",
+      "validation",
+      "test"
+    ],
+    "pair_traversal_order": "lexicographic ascending ordered group-ID pairs",
+    "acceptance": "strict lexicographic improvement only; update immediately",
+    "pass_definition": "one full move traversal followed by one full swap traversal",
+    "restart_rule": "after a pass with any accepted change, begin the next pass from the start",
+    "maximum_complete_passes": 100,
+    "stopping_rule": "stop after the first complete pass with no accepted improvement"
+  },
+  "hard_invariants": [
+    "each assignable group occurs on exactly one side",
+    "no group is split",
+    "every benchmark-positive herb occurs on exactly one side",
+    "H0847 is absent",
+    "pure context-only groups are absent from the formal split",
+    "train, validation, and test sides are non-empty",
+    "validation and test each contain at least one group",
+    "no blocking group crosses sides",
+    "formal_v6 partitions are not used"
+  ],
+  "soft_balance_targets": [
+    "positive-herb proportions",
+    "positive-edge proportions",
+    "fixed degree-bin distributions",
+    "group-count proportions"
+  ],
+  "single_execution_rule": "Stage C2 executes once. If hard invariants pass, soft imbalance cannot justify a new seed or split.",
+  "multi_seed_restart_allowed": false,
+  "random_search_allowed": false,
+  "target_identity_adjustment_allowed": false,
+  "actual_assignment_included": false
+}

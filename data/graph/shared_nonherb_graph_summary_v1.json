@@ -1,0 +1,9 @@
+{
+  "version": "shared_nonherb_graph_v1",
+  "node_count": 3351,
+  "compound_count": 1042,
+  "target_count": 2309,
+  "directed_materialized_edge_count": 25654,
+  "contains_herb": false,
+  "duplicate_edges": 0
+}

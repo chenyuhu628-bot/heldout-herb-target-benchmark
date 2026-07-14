@@ -2,3 +2,4 @@
 *.pdf binary
 *.png binary
 *.xlsx binary
+*.svg whitespace=-trailing-space

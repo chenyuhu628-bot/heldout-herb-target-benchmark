@@ -1,0 +1,12 @@
+{
+  "version": "validation_query_context_v1",
+  "query_herb_count": 67,
+  "herb_compound_unique_pair_count": 651,
+  "shared_nonherb_graph_reference": "shared_nonherb_graph_v1",
+  "profile_count_mismatch_count": 0,
+  "contains_herb_target_label": false,
+  "contains_target_id_attributable_to_query_herb": false,
+  "enters_training_message_passing": false,
+  "produces_training_gradient": false,
+  "uses_trainable_independent_query_id_embedding": false
+}

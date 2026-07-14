@@ -1,0 +1,30 @@
+{
+  "version": "formal_training_protocol_v1",
+  "encoding": "full-batch graph",
+  "loss": "BCEWithLogitsLoss",
+  "optimizer": "AdamW",
+  "negative_ratio": "per-herb 1:1",
+  "negative_resampling": "each epoch from run seed and epoch",
+  "max_epochs": 300,
+  "validation_interval_epochs": 5,
+  "early_stopping_patience_checks": 12,
+  "early_stopping_primary_metric": "macro_aupr",
+  "min_delta": 0.0001,
+  "gradient_clip_norm": 5.0,
+  "checkpoint_policy": "last and best-validation only",
+  "fresh_initialization_each_run": true,
+  "C3_smoke_checkpoint_reuse": false,
+  "test_access_during_training_or_selection": false,
+  "determinism": {
+    "python": true,
+    "numpy": true,
+    "torch_cpu": true,
+    "torch_cuda": true,
+    "cudnn_deterministic": true,
+    "cudnn_benchmark": false,
+    "worker_seed": true,
+    "negative_sampler_seed": true,
+    "level": "BEST_EFFORT_CUDA_DETERMINISTIC_WITH_OPERATOR_LOGGING",
+    "known_operator_note": "RGCNConv CUDA scatter-style reductions may differ at floating-point order; checkpoint output consistency tolerance is 1e-6 and exact state dict equality remains required."
+  }
+}

@@ -1,9 +1,15 @@
 cff-version: 1.2.0
-message: "If this repository supports your work, please cite it using these metadata."
-title: "Leakage-controlled held-out-herb target prioritization benchmark"
+message: "If you use this software or benchmark package, please cite the associated manuscript and this version-specific archive."
+title: "A held-out-herb target-prioritization benchmark with prespecified leakage controls and compound-profile similarity diagnostics"
+version: "v1.2-open-reproducibility"
+type: software
 authors:
   - family-names: Hu
     given-names: Chenyu
-version: v1.1-submission-refresh
+  - family-names: Zhang
+    given-names: Xinyou
 repository-code: "https://github.com/chenyuhu628-bot/heldout-herb-target-benchmark"
-license: MIT
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21352219"
+abstract: "Open reproducibility release containing a fixed public herb-target test set, frozen graph inputs, selected checkpoints, score matrices, and independent evaluation code."

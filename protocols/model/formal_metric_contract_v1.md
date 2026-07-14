@@ -1,0 +1,3 @@
+# Formal Metric Contract v1
+
+Every validation herb is scored against all 2,309 frozen targets. Recorded validation positives are positive; unrecorded pairs are unlabeled comparison candidates under a positive-unlabeled interpretation. Evaluation does not sample negatives or remove targets based on train support. Primary selection metric is macro herb-level AUPR. Secondary metrics are macro AUROC, micro AUPR, micro AUROC, Recall@10/20/50, NDCG@10/20/50, and MRR of the first recorded positive. Tie-breaks are macro AUROC, Recall@50, lower parameter count, then smaller config ID. Test metrics and individual herb outcomes never select models. Invalid, nonfinite, duplicate-target, zero-positive, or all-positive vectors are hard errors.

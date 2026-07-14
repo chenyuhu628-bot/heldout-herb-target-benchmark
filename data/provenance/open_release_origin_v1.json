@@ -1,0 +1,33 @@
+{
+  "candidate_target_count": 2309,
+  "candidate_target_universe_sha256": "2006ec92e34e0b8d2e099ffcbf5a4090ede24ab8e4f53cbc3cd89e923f34944b",
+  "checkpoint_manifest_sha256": "bff0d5ddff85b05c976cee47cbaf404c374a4c55dff772ee13546d6e39938ce3",
+  "checkpoint_metadata_path_sanitization": "Local absolute paths were removed from checkpoint metadata; state_dict content fingerprints are retained in the sanitation provenance record.",
+  "checkpoint_metadata_path_sanitization_manifest_sha256": "d9547eb13efa1c45feafec3a0513115c5ef4700aa445b27fa2f9ad3b809b577c",
+  "historical_evaluation": "The reference metrics were produced during the one-time sealed evaluation before public disclosure.",
+  "historical_reference_metric_count": 25,
+  "historical_reference_metrics_sha256": "e763954e698d5f2716d0955ef3fb15a0a365ccbac440dce3bbfa73b6699b6750",
+  "metric_names": [
+    "macro_aupr",
+    "macro_auroc",
+    "micro_aupr",
+    "micro_auroc",
+    "recall_at_10",
+    "recall_at_20",
+    "recall_at_50",
+    "ndcg_at_10",
+    "ndcg_at_20",
+    "ndcg_at_50",
+    "mrr_first_positive"
+  ],
+  "post_release_policy": "This release contains no retraining, tuning, or model reselection.",
+  "public_test_label_hashes": {
+    "test_positive_herbs_v1.csv": "f9182cc0b3f7b998560320369af7310aeeda5abc4558ced3bffd86d67323cebc",
+    "test_positive_pairs_v1.csv": "ab151b0ead0865771df5cfa1376d5ae32488e32b4334eb3a1606b9ecaf9207a1"
+  },
+  "release_state": "public_fixed_test_release",
+  "source_checkpoint_inventory_sha256": "40ef6074aeb6e8f86d51bc13a799f9c2b95eab067c99f7baf7fb808a9f8de284",
+  "source_reference_metrics_sha256": "f0eb194a64d5563b59b05e3d3c9454c3afdb2c51dcdb0909fc98d520cfef94ad",
+  "test_label_release_manifest_sha256": "4524e6d709023d0bc271496d62b15b6a24bad496143abf931424540422d57e34",
+  "version": "open_release_metadata_v1"
+}

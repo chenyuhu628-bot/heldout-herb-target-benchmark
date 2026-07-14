@@ -1,9 +1,8 @@
-source_or_material,role,redistribution_status,licence_or_access_status,notes
-Dryad version 6 (DOI 10.5061/dryad.wh70rxwx9),Direct distribution source for Benchmark v1 herb-related records,raw source tables not redistributed,obtain from Dryad under repository terms,"The Benchmark v1 herb-target source file was byte-identical to the Dryad-distributed file; the distributed table contained 89,775 data rows and SHA-256 a8087d72de7306fbbeeedf274069af9e78800406da3a6dedf6e97311adfab868."
-HIT 2.0,Upstream attribution in Dryad documentation,not redistributed,documentation-only attribution,"Dryad documentation attributes the herb-target and herb-compound records to HIT 2.0; HIT 2.0 was not the direct distribution source for Benchmark v1. The documentation states 168,797 herb-target associations, whereas the distributed source table contains 89,775 data rows; Benchmark v1 used the distributed file without project-side file-level filtering."
-ChEMBL,Third-party source records,raw records not redistributed,obtain from original provider under provider terms,Provider terms should be checked by downstream users.
-HGNC,Target namespace support,raw records not redistributed,obtain from original provider under provider terms,Canonical target naming is reflected only in aggregate summaries.
-UniProt,Target identifier support,raw records not redistributed,obtain from original provider under provider terms,Provider terms should be checked by downstream users.
-project-authored code,Review-safe scripts,redistributed,MIT,Limited to public review-safe scripts.
-project-authored documentation/figures,Public documentation and final figures,redistributed,CC BY 4.0 unless otherwise stated,Includes protocols and audit summaries.
-project-authored aggregate source data,Figure/table source data and aggregate metrics,redistributed,CC BY 4.0 unless otherwise stated,Aggregate or source-note records only.
+asset_scope,source_or_provider,source_location_or_identifier,declared_source_terms,package_handling,required_user_action
+herb-related source records,Dryad,"doi:10.5061/dryad.wh70rxwx9","CC0 for Dryad datasets","Frozen derived split and label artifacts are included; raw source mirror is not included.","Cite the Dryad dataset and manuscript."
+compound-target context,ChEMBL,"ChEMBL database","CC BY-SA 3.0","No complete ChEMBL source dump is included; mixed-source-derived graph artifacts may contain derived context.","Provide ChEMBL attribution and comply with CC BY-SA obligations for applicable adapted database content."
+gene nomenclature,HGNC,"HGNC download files","CC0","No complete HGNC source dump is included; harmonized identifiers are represented in frozen derived artifacts.","Cite or acknowledge HGNC as appropriate."
+protein identifiers,UniProt,"UniProt Knowledgebase","CC BY 4.0","No complete UniProt source dump is included; harmonized identifiers are represented in frozen derived artifacts.","Provide attribution and comply with CC BY 4.0."
+target-target context,STRING,"STRING database","CC BY 4.0","No complete STRING source dump is included; frozen graph artifacts may contain derived context.","Provide attribution and comply with CC BY 4.0."
+project software,Hu and Zhang,"src/ and scripts/","MIT License","Original project code is included.","Retain the MIT licence notice."
+frozen derived benchmark,Multiple sources,"data/, artifacts/, results/","Mixed; no blanket licence asserted","Publicly available for reproducibility and independent evaluation.","Follow the relevant source terms and this package's attribution notice."

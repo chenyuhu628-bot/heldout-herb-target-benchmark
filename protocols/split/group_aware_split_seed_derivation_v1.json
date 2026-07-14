@@ -1,0 +1,28 @@
+{
+  "version": "group_aware_split_seed_derivation_v1",
+  "seed_prefix": "TCMRGAT_GROUP_AWARE_SPLIT_V1",
+  "component_hashes_in_exact_order": {
+    "herb_split_blocking_group_members_v1.csv": "5d31e47e333e23c6664289930d2f8d6d2e57ae9c48cab324484e78d824f2f939",
+    "herb_benchmark_eligibility_v1.csv": "2a4dac118d7c9f61c335d5a07fd5ec718ba49bc3a8c12698c6b060d0bfae13f2",
+    "corrected_full_herb_target_positive_universe.csv": "780e4e227878cea3b442f324a3aef420885532089796942f636579dfcbd28503",
+    "clean_nodes_round5_fix8_identifier_harmonized_v4.csv": "babf11b8f801eb4a8de179cf34bde320e174b7e442e0d32c08d92a6357aea508"
+  },
+  "seed_material": "TCMRGAT_GROUP_AWARE_SPLIT_V1\n5d31e47e333e23c6664289930d2f8d6d2e57ae9c48cab324484e78d824f2f939\n2a4dac118d7c9f61c335d5a07fd5ec718ba49bc3a8c12698c6b060d0bfae13f2\n780e4e227878cea3b442f324a3aef420885532089796942f636579dfcbd28503\nbabf11b8f801eb4a8de179cf34bde320e174b7e442e0d32c08d92a6357aea508",
+  "seed_material_encoding": "UTF-8",
+  "seed_hash_algorithm": "SHA-256",
+  "full_seed_hash": "0ee00ff34b99bd4c2d8a1164e4c10ef303ed86b6bf320d61f7252b0180c15760",
+  "first_8_hex_characters": "0ee00ff3",
+  "unsigned_integer_before_modulo": 249565171,
+  "modulus": 2147483647,
+  "zero_replacement": 2147483646,
+  "derived_integer_seed": 249565171,
+  "multi_seed_search_performed": false,
+  "formal_v6_seed_reused": false,
+  "actual_split_created": false,
+  "recalculation_steps": [
+    "Join the exact five lines in seed_material with LF characters and no trailing LF.",
+    "SHA-256 hash the UTF-8 bytes.",
+    "Convert the first eight hexadecimal characters to an unsigned integer.",
+    "Take value modulo 2147483647; replace zero with 2147483646."
+  ]
+}

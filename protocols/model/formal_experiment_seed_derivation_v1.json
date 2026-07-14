@@ -1,0 +1,27 @@
+{
+  "version": "formal_experiment_seed_derivation_v1",
+  "seed_material": "TCMRGAT_FORMAL_EXPERIMENT_PROTOCOL_V1\n6bfd59007a5ae4ff688bd27039eb2b199df3153d6ca9d1818f1535417c6db5e7\n95ccb48f7ee7400642e3fc408c7e744d5d86e6dc591548baffcc18020e7e5634\n80d92334e9153d6b47ac2749828e983dfba74ca20b1ce5115593d721ef0b6227\n30b53429610646fb0276bc7dce5b04697ea5f196b2f1c695d59135af08c3e028\ndffa38524841addf65c28b36fd59276a4c2440910d265c5cf5c3de4c5823b829",
+  "namespace_rule": "SHA-256(seed_material + LF + namespace); first 8 hex modulo 2147483647; zero -> 2147483646",
+  "namespace_hashes": {
+    "TUNE_01": "edea3b169706907b855989aa4f782314276b91035fcfcbdfb2aeafca6737c536",
+    "TUNE_02": "4a0e3992c64386b4717daeeb5487c56adfbf3497b0605a6ec1ce4d3667121f35",
+    "FINAL_01": "faaa1d9e8c0f471d9168acb2117661432db99b0cf595ebbffbb016b5ce030797",
+    "FINAL_02": "253af01bedee3c263137b3c2ebde0dae7bf86f052868d7f806be2fd8ffb1a1aa",
+    "FINAL_03": "0275d73bb3998eb837571258a0da4df4d12da98617d9fed2e07004718cd4829b",
+    "FINAL_04": "7418eea777d1617524b5902b480a8c825da900a57b1792c09f93b791e1127d43",
+    "FINAL_05": "3658346e182e6fc933bf9f2d81ee1236afd55b1426db9d24b05f7495c9cf0b1d"
+  },
+  "tuning_seeds": {
+    "TUNE_01": 1844067095,
+    "TUNE_02": 1242446226
+  },
+  "final_seeds": {
+    "FINAL_01": 2057969055,
+    "FINAL_02": 624619547,
+    "FINAL_03": 41277243,
+    "FINAL_04": 1947791015,
+    "FINAL_05": 911750254
+  },
+  "split_seed_reused": false,
+  "performance_based_replacement_allowed": false
+}

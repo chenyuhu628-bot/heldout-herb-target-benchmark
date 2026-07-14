@@ -1,0 +1,11 @@
+{
+  "version": "training_graph_v1",
+  "herb_count": 535,
+  "node_count": 3886,
+  "nonlabel_directed_edge_count": 38160,
+  "herb_compound_unique_pair_count": 6253,
+  "supervision_pair_count": 69053,
+  "relation_count": 7,
+  "validation_or_test_herb_present": false,
+  "formal_training_performed": false
+}

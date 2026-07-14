@@ -1,0 +1,6 @@
+ablation_id,name,frozen_graph_or_model_change,status
+ABL01,No target-target context,remove target_interacts_target,REGISTERED
+ABL02,No compound-target context,remove both compound-target evidence relations and reverses,REGISTERED
+ABL03,Merge evidence-stratified compound-target relations,merge context and high-strict relation families,REGISTERED
+ABL04,No relation attention,retain transformations; replace gates/attention with fixed mean,REGISTERED
+ABL05,Homogeneous collapse,collapse all non-label relations as GraphSAGE,REGISTERED

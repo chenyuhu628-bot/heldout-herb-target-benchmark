@@ -1,0 +1,8 @@
+relation_name,relation_index
+compound_in_herb,0
+compound_interacts_target_context,1
+compound_interacts_target_high_strict,2
+herb_contains_compound,3
+target_context_from_compound,4
+target_high_strict_from_compound,5
+target_interacts_target,6

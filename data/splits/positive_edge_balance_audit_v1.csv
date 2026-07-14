@@ -1,0 +1,4 @@
+partition,positive_pair_count,actual_proportion,target_proportion,absolute_proportion_deviation
+train,69053,0.7999930488779731,0.8,6.951122026976897e-06
+validation,8632,0.10000347556101348,0.1,3.4755610134745707e-06
+test,8632,0.10000347556101348,0.1,3.4755610134745707e-06

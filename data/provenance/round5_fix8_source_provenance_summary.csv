@@ -1,0 +1,6 @@
+source_family,input_records,included_records,excluded_records,clean_unique_relations,full_row_provenance_location
+HERB herb-target raw rows,89775,87893,1882,87825,restricted custodian
+HERB herb-compound,14985,14985,0,14985,active non-label edge file
+ChEMBL high-strict,1456,1456,0,1456,active high-strict and non-label edge files
+ChEMBL context,9431,8835,596,8835,active non-label edge file
+HERB target-target context,4987,4963,24,4963,active non-label edge file

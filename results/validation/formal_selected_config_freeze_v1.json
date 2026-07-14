@@ -1,0 +1,81 @@
+{
+  "version": "formal_selected_config_freeze_v1",
+  "created_at": "2026-07-04T11:51:41+08:00",
+  "scientific_scope": "FORMAL VALIDATION-ONLY MODEL SELECTION RESULTS",
+  "selection_rule": [
+    "mean_macro_aupr_desc",
+    "mean_macro_auroc_desc",
+    "mean_recall_at_50_desc",
+    "parameter_count_asc",
+    "config_id_asc"
+  ],
+  "selected_configs": [
+    {
+      "model": "TCMRGAT",
+      "selected_config_id": "CFG04",
+      "mean_macro_aupr": 0.7365225773889833,
+      "std_macro_aupr": 0.0069992763426294236,
+      "mean_macro_auroc": 0.9520996477752457,
+      "mean_recall_at_50": 0.5159722577188555,
+      "parameter_count": 730001,
+      "selection_rank": 1,
+      "tie_break_used": "mean_macro_aupr",
+      "selection_status": "SELECTED_BY_FROZEN_VALIDATION_ONLY_RULE"
+    },
+    {
+      "model": "HeteroSAGE",
+      "selected_config_id": "CFG04",
+      "mean_macro_aupr": 0.7221215826741871,
+      "std_macro_aupr": 0.0030160668902624245,
+      "mean_macro_auroc": 0.9537080438807947,
+      "mean_recall_at_50": 0.5117514086223618,
+      "parameter_count": 955777,
+      "selection_rank": 1,
+      "tie_break_used": "mean_macro_aupr",
+      "selection_status": "SELECTED_BY_FROZEN_VALIDATION_ONLY_RULE"
+    },
+    {
+      "model": "GraphSAGE",
+      "selected_config_id": "CFG04",
+      "mean_macro_aupr": 0.7285887379294935,
+      "std_macro_aupr": 0.010043309995838735,
+      "mean_macro_auroc": 0.956351329775035,
+      "mean_recall_at_50": 0.5087255859067923,
+      "parameter_count": 561025,
+      "selection_rank": 1,
+      "tie_break_used": "mean_macro_aupr",
+      "selection_status": "SELECTED_BY_FROZEN_VALIDATION_ONLY_RULE"
+    },
+    {
+      "model": "RGCN",
+      "selected_config_id": "CFG04",
+      "mean_macro_aupr": 0.7200945649894399,
+      "std_macro_aupr": 0.0005566566281501862,
+      "mean_macro_auroc": 0.9538709520925344,
+      "mean_recall_at_50": 0.5074039776304107,
+      "parameter_count": 659385,
+      "selection_rank": 1,
+      "tie_break_used": "mean_macro_aupr",
+      "selection_status": "SELECTED_BY_FROZEN_VALIDATION_ONLY_RULE"
+    },
+    {
+      "model": "GCN",
+      "selected_config_id": "CFG04",
+      "mean_macro_aupr": 0.7445993049056733,
+      "std_macro_aupr": 0.002023987613039394,
+      "mean_macro_auroc": 0.9533506751516686,
+      "mean_recall_at_50": 0.518749498828518,
+      "parameter_count": 528257,
+      "selection_rank": 1,
+      "tie_break_used": "mean_macro_aupr",
+      "selection_status": "SELECTED_BY_FROZEN_VALIDATION_ONLY_RULE"
+    }
+  ],
+  "aggregate_sha256": "5957eb03e9945af3f44372e94506671e5dfec1a814e06674c22b448761e14fb8",
+  "input_hash_signature": "01673d40163d47f9b9e283389bcd5ea829eda2dcedd8ffa27401224cba370377",
+  "protocol_hash": "6b02cf186681f945d8e87a0f272ce5c55db76e42bbf5251f96619dc6dc714247",
+  "runner_code_hash": "e8445f50da66dbf0333b03db4ad6d811e3ec05614d995c094663d5e554b939a0",
+  "frozen_code_hash": "a9c7c2fb39066d382f485ed18b7f9c7e2de5c569d64647fafb30921401749c7f",
+  "test_information_used": false,
+  "final_seed_training_performed": false
+}

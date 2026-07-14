@@ -1,0 +1,6 @@
+model,encode_training_graph,encode_query_herb,score_pairs,parameter_count,architecture_config,reads_relation_ids,shared_decoder_contract,shared_feature_contract,no_herb_id_embedding,status
+TCMRGAT,True,True,True,True,True,True,FormalPairDecoder,FormalFeatureBuilder,True,PASS
+HeteroSAGE,True,True,True,True,True,True,FormalPairDecoder,FormalFeatureBuilder,True,PASS
+GraphSAGE,True,True,True,True,True,False,FormalPairDecoder,FormalFeatureBuilder,True,PASS
+RGCN,True,True,True,True,True,True,FormalPairDecoder,FormalFeatureBuilder,True,PASS
+GCN,True,True,True,True,True,False,FormalPairDecoder,FormalFeatureBuilder,True,PASS

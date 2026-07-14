@@ -1,2 +1,0 @@
-path,reason,replacement,referenced_by,safe_to_delete,notes
-(none),"No obsolete duplicate, preview, caption, or SVG file exists in the current repository.","Canonical Figure 1 and Figure 3 PDF/PNG files were overwritten in place.",N/A,YES,No current-branch file deletion is required.

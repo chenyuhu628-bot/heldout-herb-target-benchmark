@@ -1,0 +1,12 @@
+component,legacy_activepath,C3_adapter,D1_formal_candidate,assessment
+input projection,FeatureConditionedInitializer,single Linear hash feature projection,shared trainable non-herb embeddings; context herb,CORRECTED
+relation transformation,relation-specific GAT/SAGE modules,relation-specific Linear mean,relation-specific GAT/SAGE/RGCN; collapsed homogeneous baselines,FROZEN
+attention,multi-head GAT + scalar relation gates,scalar gate over linear messages,4-head GAT + relation gates in TCMRGAT,FAITHFUL
+aggregation,sum gated relation messages,normalized relation mean,architecture-specific frozen aggregation,FROZEN
+normalization/residual,LayerNorm + learned residual alpha,LayerNorm residual,LayerNorm residual; TCMRGAT learned alpha,FAITHFUL
+layers,2,2,2,MATCH
+herb representation,feature-conditioned,ID-hash smoke feature then context query,same compound-context encoder for all herbs,CORRECTED
+non-herb representation,shared embedding/initializer,ID hash,shared trainable transductive embeddings,CORRECTED
+decoder,PairDecoder,simple pair MLP,shared interaction decoder,FROZEN
+query attachment,legacy query builder,context mean attachment,label-free compound context; no herb ID parameter,FROZEN
+checkpoint,legacy state dict,nonformal smoke,formal metadata/config hash guarded,CORRECTED

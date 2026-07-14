@@ -1,65 +1,271 @@
 path,file_type,description,public_release_status,licence_scope,notes
-.gitattributes,text,Git attributes enforcing stable LF text checkout and binary handling.,public,MIT,Repository-relative path.
-.gitignore,text,Git ignore rules for local generated files and environment artifacts.,public,MIT,Repository-relative path.
-CHECKSUMS_SHA256.txt,text,SHA256 checksums for repository files except this checksum file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-CITATION.cff,citation metadata,Citation metadata.,public,metadata,Repository-relative path.
-DATA_LICENSE.md,markdown,Data licence and redistribution boundary.,public,mixed,Repository-relative path.
-LICENSE,text,MIT License for project-authored code.,public,MIT,Repository-relative path.
-MANIFEST.csv,csv,Repository file manifest.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-README.md,markdown,Public repository overview and quickstart.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audits_review_safe/claim_consistency_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audits_review_safe/file_inventory_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audits_review_safe/no_post_test_selection_statement.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audits_review_safe/restricted_materials_exclusion_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audits_review_safe/validation_only_vs_sealed_test_boundary_audit.md,markdown,Public audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audit/submission_package_refresh/01_repository_audit.csv,csv,Submission-refresh audit findings.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audit/submission_package_refresh/02_repository_audit_summary.md,markdown,Submission-refresh audit summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audit/submission_package_refresh/03_files_to_delete.csv,csv,Submission-refresh obsolete-file assessment.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audit/submission_package_refresh/04_manifest_checksum_report.md,markdown,Submission-refresh manifest and checksum report.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audit/submission_package_refresh/05_final_consistency_report.md,markdown,Submission-refresh final-consistency report.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-audit/submission_package_refresh/06_change_summary.md,markdown,Submission-refresh release notes and change summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-data_availability/controlled_access_statement.md,markdown,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-data_availability/data_availability_statement.md,markdown,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-data_availability/public_materials_inventory.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-data_availability/restricted_materials_inventory.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-data_availability/source_provenance_license_matrix.csv,csv,Data availability inventory or statement.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-environment/requirements_review_safe.txt,text,Review-safe Python requirements.,public,MIT,Repository-relative path.
-figures/main/figure1.pdf,pdf,Final Figure 1 PDF: source records, benchmark construction, split blocking, frozen workflow, and sealed evaluation.,public,CC BY 4.0 unless otherwise stated,Repository-relative path; SHA-256 is listed in CHECKSUMS_SHA256.txt.
-figures/main/figure1.png,png,Final Figure 1 PNG: source records, benchmark construction, split blocking, frozen workflow, and sealed evaluation.,public,CC BY 4.0 unless otherwise stated,Repository-relative path; SHA-256 is listed in CHECKSUMS_SHA256.txt.
-figures/main/figure2.pdf,pdf,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/main/figure2.png,png,Final main figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/main/figure3.pdf,pdf,Final Figure 3 PDF: sealed-test AUPR comparison and descriptive secondary metrics.,public,CC BY 4.0 unless otherwise stated,Repository-relative path; SHA-256 is listed in CHECKSUMS_SHA256.txt.
-figures/main/figure3.png,png,Final Figure 3 PNG: sealed-test AUPR comparison and descriptive secondary metrics.,public,CC BY 4.0 unless otherwise stated,Repository-relative path; SHA-256 is listed in CHECKSUMS_SHA256.txt.
-figures/source_data/figure1_source_notes.csv,csv,Figure 1 source notes for target identifier harmonization wording.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/source_data/figure2_source_notes.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/source_data/figure3_source_data.csv,csv,Figure 3 source data with full-precision aggregate values and display values.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/source_data/supplementary_figure_S1_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/source_data/supplementary_figure_S2_source_notes.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/source_data/supplementary_figure_S3_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/source_data/supplementary_figure_S4_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/source_data/supplementary_figure_S5_source_data.csv,csv,Figure source data or source notes.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S1.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S1.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S2.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S2.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S3.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S3.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S4.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S4.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S5.pdf,pdf,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-figures/supplementary/supplementary_figure_S5.png,png,Final supplementary figure.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-protocols/frozen_protocol_summary.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-protocols/metric_contract_review_safe.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-protocols/model_selection_policy_review_safe.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-protocols/split_and_leakage_control_summary.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-protocols/validation_only_diagnostics_summary.md,markdown,Public protocol summary.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-results_aggregates/nn_stress_validation_metrics.csv,csv,Aggregate metric file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-results_aggregates/rank_uncertainty_metrics.csv,csv,Aggregate metric file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-results_aggregates/sealed_test_graph_model_aggregate_metrics.csv,csv,Full-precision sealed-test aggregate graph-model metrics.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-results_aggregates/validation_simple_baseline_metrics.csv,csv,Aggregate metric file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-scripts_review_safe/README.md,markdown,Review-safe utility script or script documentation.,public,MIT,Repository-relative path.
-scripts_review_safe/plot_aggregate_figure_previews.py,python,Review-safe aggregate figure-preview generator.,public,MIT,Repository-relative path.
-scripts_review_safe/verify_checksums.py,python,Review-safe utility script or script documentation.,public,MIT,Repository-relative path.
-tables/main/table1_benchmark_summary.csv,csv,Table source file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-tables/main/table2_sealed_test_results.csv,csv,Table source file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
-tables/supplementary/supplementary_tables.xlsx,xlsx,Table source file.,public,CC BY 4.0 unless otherwise stated,Repository-relative path.
+.gitattributes,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+.gitignore,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+CITATION.cff,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+DATA_LICENSE.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+LICENSE,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+LICENSE_SCOPE.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+README.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+README_zh-CN.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+VERSION,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GCN__CFG04__FINAL_01/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GCN__CFG04__FINAL_02/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GCN__CFG04__FINAL_03/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GCN__CFG04__FINAL_04/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GCN__CFG04__FINAL_05/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GraphSAGE__CFG04__FINAL_01/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GraphSAGE__CFG04__FINAL_02/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GraphSAGE__CFG04__FINAL_03/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GraphSAGE__CFG04__FINAL_04/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/GraphSAGE__CFG04__FINAL_05/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/HeteroSAGE__CFG04__FINAL_01/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/HeteroSAGE__CFG04__FINAL_02/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/HeteroSAGE__CFG04__FINAL_03/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/HeteroSAGE__CFG04__FINAL_04/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/HeteroSAGE__CFG04__FINAL_05/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/RGCN__CFG04__FINAL_01/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/RGCN__CFG04__FINAL_02/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/RGCN__CFG04__FINAL_03/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/RGCN__CFG04__FINAL_04/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/RGCN__CFG04__FINAL_05/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/TCMRGAT__CFG04__FINAL_01/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/TCMRGAT__CFG04__FINAL_02/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/TCMRGAT__CFG04__FINAL_03/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/TCMRGAT__CFG04__FINAL_04/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/TCMRGAT__CFG04__FINAL_05/best.pt,PyTorch checkpoint,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/checkpoints/checkpoint_manifest_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GCN__CFG04__FINAL_01_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GCN__CFG04__FINAL_02_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GCN__CFG04__FINAL_03_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GCN__CFG04__FINAL_04_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GCN__CFG04__FINAL_05_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GraphSAGE__CFG04__FINAL_01_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GraphSAGE__CFG04__FINAL_02_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GraphSAGE__CFG04__FINAL_03_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GraphSAGE__CFG04__FINAL_04_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/GraphSAGE__CFG04__FINAL_05_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/HeteroSAGE__CFG04__FINAL_01_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/HeteroSAGE__CFG04__FINAL_02_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/HeteroSAGE__CFG04__FINAL_03_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/HeteroSAGE__CFG04__FINAL_04_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/HeteroSAGE__CFG04__FINAL_05_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/README.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/RGCN__CFG04__FINAL_01_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/RGCN__CFG04__FINAL_02_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/RGCN__CFG04__FINAL_03_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/RGCN__CFG04__FINAL_04_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/RGCN__CFG04__FINAL_05_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/TCMRGAT__CFG04__FINAL_01_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/TCMRGAT__CFG04__FINAL_02_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/TCMRGAT__CFG04__FINAL_03_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/TCMRGAT__CFG04__FINAL_04_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+artifacts/scores/TCMRGAT__CFG04__FINAL_05_scores_v1.npz,NumPy compressed archive,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+audits/generic_evaluator_smoke_TCMRGAT__CFG04__FINAL_01.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+audits/open_release_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+audits/open_release_integrity_verification_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/candidate_target_universe_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/shared_nonherb_edges_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/shared_nonherb_graph_summary_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/shared_nonherb_nodes_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/test_query_context_summary_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/test_query_herb_compound_edges_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/test_query_herb_nodes_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/training_graph_herb_compound_edges_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/training_graph_herb_nodes_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/training_graph_node_index_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/training_graph_nodes_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/training_graph_nonlabel_edges_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/training_graph_relation_index_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/training_graph_summary_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/training_graph_supervision_pairs_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/validation_query_context_summary_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/validation_query_herb_compound_edges_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/graph/validation_query_herb_nodes_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,Mixed source-derived; see DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/labels/test_label_release_manifest_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/labels/test_positive_herbs_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/labels/test_positive_pairs_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/licenses/SOURCE_LICENSES.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/CHECKPOINT_METADATA_PATH_SANITIZATION.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/UPSTREAM_VERSION_LIMITATION.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/checkpoint_metadata_path_sanitization_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/clean_nodes_round5_fix8_identifier_harmonized_v4.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/corrected_full_herb_target_positive_universe_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/herb_internal_target_to_canonical_mapping_round5_fix8.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/README.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/compound_target_and_target_context_evidence_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/dataset_bias_and_label_completeness_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/graph_context_and_feature_leakage_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/label_semantics_and_pu_evaluation_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/post_test_design_change_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/sealed_test_integrity_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/split_integrity_and_identity_leakage_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/target_harmonization_and_identifier_risk_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/legacy_audits/transductive_inductive_scope_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/open_release_origin_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_alias_merge_audit.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_composite_exclusion_audit.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_endpoint_audit.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_highstrict_audit.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_nonhuman_exclusion_audit.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_patch1_compatibility_audit.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_patch1_endpoint_audit.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_patch1_reciprocal_merge_audit.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_patch1_target_context_provenance_summary.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_positive_deduplication_audit.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_previous_symbol_rename_audit.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/round5_fix8_source_provenance_summary.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/provenance/target_canonical_mapping_round5_fix8.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/benchmark_quarantine_excluded_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/context_only_groups_excluded_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/degree_bin_balance_audit_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/graph_isolation_instance_contract_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/group_aware_split_status_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/group_partition_registry_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/group_size_balance_audit_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/herb_partition_registry_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/positive_edge_balance_audit_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/post_split_target_support_report_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/post_split_target_support_summary_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/split_balance_report_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/split_balance_summary_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/split_optimization_trace_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/test_graph_herb_registry_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/test_positive_herbs_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/train_positive_herbs_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/train_positive_pairs_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/training_graph_herb_allowlist_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/training_graph_herb_exclusion_registry_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/validation_graph_herb_registry_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/validation_positive_herbs_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data/splits/validation_positive_pairs_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data_availability/DATA_AVAILABILITY_v1.2.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+data_availability/source_provenance_license_matrix.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+environment/README.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+environment/requirements_cpu_reproduce.txt,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+environment/requirements_cuda_reproduce.txt,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/README.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/main/figure1.pdf,PDF,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/main/figure1.png,PNG,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/main/figure2.pdf,PDF,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/main/figure2.png,PNG,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/main/figure3.pdf,PDF,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/main/figure3.png,PNG,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/source_data/figure1_source_notes.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/source_data/figure2_source_notes.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/source_data/figure3_source_data.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/source_data/supplementary_figure_S1_source_data.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/source_data/supplementary_figure_S2_source_data.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/source_data/supplementary_figure_S3_source_data.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/source_data/supplementary_figure_S4_source_data.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/source_data/supplementary_figure_S5_source_data.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S1.pdf,PDF,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S1.png,PNG,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S2.pdf,PDF,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S2.png,PNG,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S2.svg,file,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S3.pdf,PDF,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S3.png,PNG,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S4.pdf,PDF,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S4.png,PNG,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S5.pdf,PDF,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+figures/supplementary/supplementary_figure_S5.png,PNG,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/graph/graph_isolation_audit_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/graph/graph_isolation_validation_report_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/graph/group_aware_graph_relation_registry_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/graph/group_aware_graph_schema_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/graph/group_aware_negative_sampling_audit_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/graph/group_aware_negative_sampling_policy_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_ablation_protocol_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_ablation_registry_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_baseline_fairness_contract_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_checkpoint_contract_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_experiment_seed_derivation_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_experiment_seed_derivation_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_feature_provenance_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_hyperparameter_selection_protocol_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_hyperparameter_space_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_metric_contract_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_metric_test_report_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_model_architecture_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_model_component_comparison_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_model_interface_audit_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_model_parity_matrix_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_model_selection_protocol_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_negative_sampling_contract_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_node_feature_contract_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_node_feature_registry_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_parameter_count_report_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_training_protocol_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/model/formal_training_protocol_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/open_release_evaluation_protocol_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/P1_P2_membership_equivalence_audit.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/benchmark_positive_herbs_pre_split_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/context_only_group_closure_audit_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/group_aware_graph_isolation_protocol_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/group_aware_split_protocol_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/group_aware_split_protocol_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/group_aware_split_seed_derivation_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/group_aware_split_seed_derivation_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/group_split_features_pre_split_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/herb_benchmark_eligibility_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/herb_benchmark_quarantine_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/herb_split_blocking_group_members_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/herb_split_blocking_groups_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/herb_split_blocking_policy_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/post_split_target_support_diagnostic_policy_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/pre_split_scientific_universe_audit_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+protocols/split/stageC2_single_execution_contract_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+release_notes/CHANGELOG_v1.2.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+release_notes/UPLOAD_CHECKLIST_v1.2.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/metrics/historical_metric_reproduction_comparison_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/metrics/open_frozen_score_export_manifest_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/metrics/reproduced_test_metrics_by_checkpoint_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/metrics/reproduced_test_per_herb_metrics_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/reference/README.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/reference/historical_test_metrics_by_checkpoint_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/README.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_config_selection_audit_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_final_best_run_metrics_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_final_checkpoint_revalidation_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_final_epoch_metrics_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_final_model_seed_aggregate_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_final_per_herb_best_metrics_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_final_runtime_summary_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_final_validation_checks_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_selected_config_by_model_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_selected_config_freeze_v1.json,JSON,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_selected_config_report_v1.md,Markdown,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_tuning_best_run_metrics_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_tuning_checkpoint_revalidation_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_tuning_config_aggregate_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_tuning_epoch_metrics_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_tuning_per_herb_best_metrics_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results/validation/formal_tuning_validation_checks_v1.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results_aggregates/nn_stress_validation_metrics.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results_aggregates/rank_uncertainty_metrics.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results_aggregates/sealed_test_graph_model_aggregate_metrics.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+results_aggregates/validation_simple_baseline_metrics.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+scripts/generate_manifest_and_checksums_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+scripts/render_supplementary_figure_S2_v1_2.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+scripts/verify_checksums.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+scripts/verify_open_release_integrity_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/evaluation/evaluate_score_matrix_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/evaluation/export_frozen_test_scores_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/evaluation/formal_test_metric_runner_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/evaluation/formal_test_score_runner_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_checkpoint_manager_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_feature_builder_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_gcn_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_graphsage_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_heterosage_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_metric_contract_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_model_base_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_model_registry_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_negative_sampler_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_pair_decoder_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_query_adapter_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_rgcn_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+src/frozen_d1/formal_tcmrgat_v1.py,Python source,Public v1.2 open reproducibility release asset.,public,MIT,Verify integrity with CHECKSUMS_SHA256.txt.
+tables/main/table1_benchmark_summary.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+tables/main/table2_sealed_test_results.csv,CSV,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.
+tables/supplementary/supplementary_tables.xlsx,Excel workbook,Public v1.2 open reproducibility release asset.,public,See DATA_LICENSE.md,Verify integrity with CHECKSUMS_SHA256.txt.

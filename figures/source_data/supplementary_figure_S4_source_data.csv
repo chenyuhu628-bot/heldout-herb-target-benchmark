@@ -1,10 +1,10 @@
 panel,element,metric,value,denominator,value_display,validation_only,not_formal_sealed_test,source_file,notes
-A,Validation labels used in NN scoring,audit_status,No,,No,True,True,review-safe public aggregate/source-data input,Validation labels are not used in NN score construction.
-A,Held-out labels applied before scoring,audit_status,No,,No,True,True,review-safe public aggregate/source-data input,Held-out validation labels are applied only after scoring for evaluation.
-A,Score-construction audit,audit_status,Passed,,Passed,True,True,review-safe public aggregate/source-data input,Score-construction audit passed; no evidence of label use in score construction.
-B,Original NN transfer (K=25),validation_macro_herb_level_AUPR,0.748219647855732,,0.7482,True,True,review-safe public aggregate/source-data input,Top-k sensitivity with k=25; recomputed validation-only comparator.
-B,No exact-profile matches,validation_macro_herb_level_AUPR,0.7329445614589472,,0.7329,True,True,review-safe public aggregate/source-data input,K25 after excluding exact Jaccard=1.0 train neighbors.
-B,Max Jaccard < 0.9,validation_macro_herb_level_AUPR,0.7329445614589472,,0.7329,True,True,review-safe public aggregate/source-data input,K25 after excluding train neighbors with Jaccard >= 0.9.
-C,Exact compound-profile match herbs,herb_count,6,67,6 / 67,True,True,review-safe public aggregate/source-data input,Validation herbs with at least one exact Jaccard=1.0 train compound-profile match.
-C,Perfect-AUPR herbs,herb_count,12,67,12 / 67,True,True,review-safe public aggregate/source-data input,Validation herbs with AUPR >= 0.999 in K5/K10/K25 NN variants.
-C,Single-compound validation herbs,herb_count,11,67,11 / 67,True,True,review-safe public aggregate/source-data input,Validation herbs in the compound-profile degree_1 group.
+A,Validation labels used in NN scoring,audit_status,No,,No,True,True,public source-data input,Validation labels are not used in NN score construction.
+A,Held-out labels applied before scoring,audit_status,No,,No,True,True,public source-data input,Held-out validation labels are applied only after scoring for evaluation.
+A,Score-construction audit,audit_status,Passed,,Passed,True,True,public source-data input,Score-construction audit passed; no evidence of label use in score construction.
+B,Original NN transfer (K=25),validation_macro_herb_level_AUPR,0.748219647855732,,0.7482,True,True,public source-data input,Top-k sensitivity with k=25; recomputed validation-only comparator.
+B,No exact-profile matches,validation_macro_herb_level_AUPR,0.7329445614589472,,0.7329,True,True,public source-data input,K25 after excluding exact Jaccard=1.0 train neighbors.
+B,Max Jaccard < 0.9,validation_macro_herb_level_AUPR,0.7329445614589472,,0.7329,True,True,public source-data input,K25 after excluding train neighbors with Jaccard >= 0.9.
+C,Exact compound-profile match herbs,herb_count,6,67,6 / 67,True,True,public source-data input,Validation herbs with at least one exact Jaccard=1.0 train compound-profile match.
+C,Perfect-AUPR herbs,herb_count,12,67,12 / 67,True,True,public source-data input,Validation herbs with AUPR >= 0.999 in K5/K10/K25 NN variants.
+C,Single-compound validation herbs,herb_count,11,67,11 / 67,True,True,public source-data input,Validation herbs in the compound-profile degree_1 group.

@@ -1,0 +1,11 @@
+check,status
+test_blocking_groups_not_crossed,PASS
+test_context_only_and_quarantine_absent,PASS
+test_holdout_herbs_absent_from_training_index_and_edges,PASS
+test_indices_recalculate,PASS
+test_nonherb_sharing_rules,PASS
+test_partition_herb_counts,PASS
+test_partition_herbs_disjoint,PASS
+test_query_profile_counts_match_B1,PASS
+test_supervision_scoped,PASS
+test_test_query_has_no_label_fields,PASS

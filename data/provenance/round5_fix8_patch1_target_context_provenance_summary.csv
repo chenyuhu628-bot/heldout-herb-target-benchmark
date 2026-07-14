@@ -1,0 +1,5 @@
+category,source_rows,normalized_pairs,raw_exact_occurrences,action
+base_target_context,4963,2536,5102,P1 normalization
+removed_self_reference,258,0,258,Unsupported endpoint-only self-reference removed from model context
+merged_reciprocal,4338,2169,4467,merge orientations; union provenance; unit graph weight
+retained_nonreciprocal,367,367,377,retain unordered pair; unit graph weight

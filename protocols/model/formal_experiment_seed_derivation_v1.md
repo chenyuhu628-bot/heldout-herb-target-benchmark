@@ -1,0 +1,12 @@
+# Formal Experiment Seed Derivation v1
+
+````text
+TCMRGAT_FORMAL_EXPERIMENT_PROTOCOL_V1
+6bfd59007a5ae4ff688bd27039eb2b199df3153d6ca9d1818f1535417c6db5e7
+95ccb48f7ee7400642e3fc408c7e744d5d86e6dc591548baffcc18020e7e5634
+80d92334e9153d6b47ac2749828e983dfba74ca20b1ce5115593d721ef0b6227
+30b53429610646fb0276bc7dce5b04697ea5f196b2f1c695d59135af08c3e028
+dffa38524841addf65c28b36fd59276a4c2440910d265c5cf5c3de4c5823b829
+````
+
+Two tuning and five final nonzero 31-bit seeds are derived by the frozen namespace rule. They are distinct from the split seed and cannot be replaced based on performance.

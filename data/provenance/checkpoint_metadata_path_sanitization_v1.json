@@ -1,0 +1,185 @@
+{
+  "checkpoint_count": 25,
+  "portable_metadata_path_namespace": "historical_provenance",
+  "purpose": "Remove machine-local absolute paths from copied checkpoint metadata before public release.",
+  "records": [
+    {
+      "released_checkpoint_sha256": "83dd783879c0b793eab34b981f5db3db9ee2e8e037e4736e41a5b052032fd2dd",
+      "run_id": "GCN__CFG04__FINAL_01",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "d930a7cafe6ffac38894c4060b76ed99c73af102701f06b429d9947bfd8c1465",
+      "state_dict_sha256": "e18a0380351461414b3feea2e5479d95546973ccd1557160da6160f88cbaaff0"
+    },
+    {
+      "released_checkpoint_sha256": "89cf4d0f38fd35e34b730178f56c5c027c6dd3018262b98b822b8339b11d63e5",
+      "run_id": "GCN__CFG04__FINAL_02",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "c40fdf606316a7d3bfbe150fb7a7d4f9650ddfd808255cfa62357bc265319c36",
+      "state_dict_sha256": "e40d662b7c394086874711d2505553a14fa16d5cd66c27d1998afdf4d0bdcd27"
+    },
+    {
+      "released_checkpoint_sha256": "c2a4355c8cc67409463b7fcdb4e7bb8ab9b83e65a9df8cee4dfe335bec4ec1f5",
+      "run_id": "GCN__CFG04__FINAL_03",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "e5658c5d7235e07fc20158a4409c8008397a9273f0149f47bcf1cb60632997ba",
+      "state_dict_sha256": "7198f60f8589bd2e5d5998b887478489a5f4671862fdddb7f8d1b4af479948d7"
+    },
+    {
+      "released_checkpoint_sha256": "fc98f2df9169982100c79c6de91ce977a4774659024eb79c06acd8f22f88e1ab",
+      "run_id": "GCN__CFG04__FINAL_04",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "a92775bae8114c361a7e56cde6c32f84a336cae56c5edd4234b5741b5dfa11a6",
+      "state_dict_sha256": "09f680c2e7df4cbf53b5a1c6c9680f39366e00ac5251f6937a2e2758fe4e5db3"
+    },
+    {
+      "released_checkpoint_sha256": "0ed73cdb65a9d753e4ef4776f57b8c5cf7897f217680baf290d7304cf3b2c12b",
+      "run_id": "GCN__CFG04__FINAL_05",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "310e27dd241a618568513a05a90327df97ed71636e07c1e6ed88864c5a9e2bc9",
+      "state_dict_sha256": "c3f72823d7daeb55ffdababc6aba5f133ae384cb2e4bc039d3cccb5a4cbeba0a"
+    },
+    {
+      "released_checkpoint_sha256": "709daac2303c84b82738a0f55cefa3240bbaa637934d0ccf2a7d51aea7b78c33",
+      "run_id": "GraphSAGE__CFG04__FINAL_01",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "9e02e1f00ef7ca6f46f92b219fb01d2ca7e0459513c7496996239f19bd8e48c2",
+      "state_dict_sha256": "a97849a91177c4e196bbed1d4ce3cc94393ce9d406e9c764fe02ac922ea5fee9"
+    },
+    {
+      "released_checkpoint_sha256": "288e8c6d69488a28838c3e15cd161326d875578233b67e9e8033eba8c860ed68",
+      "run_id": "GraphSAGE__CFG04__FINAL_02",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "675d061813a67556ef0a9d52b807ff07ad644defba45f839a1f03ee5492e313b",
+      "state_dict_sha256": "3c6be0368760c9c65bb71715da2d36542c327c7696cabd2853878911de0e01b6"
+    },
+    {
+      "released_checkpoint_sha256": "e933271d0cddd467f33cea0617326b4e500426ea7a88204806926cdd3b67cf34",
+      "run_id": "GraphSAGE__CFG04__FINAL_03",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "973de74c538f83fc0315cf8dfd106a7485edf8b7468f1e5e90ffd121333fd55c",
+      "state_dict_sha256": "4d86b1f9ba04a06b0987c3299408173bed340dec55b04701fcbda93da5be5d73"
+    },
+    {
+      "released_checkpoint_sha256": "027c93cbf13e68ccf7b13066e272a2b0fc9e554bdd4ce8d1279c783c612799ba",
+      "run_id": "GraphSAGE__CFG04__FINAL_04",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "93b87530d68ee4dd0c5ca7818af9acba22f7813150aab21b525b047091f41fe2",
+      "state_dict_sha256": "209d6de7878df6e14ca33267c2a652d595604ca6f686b44f5b3fb313130db05b"
+    },
+    {
+      "released_checkpoint_sha256": "b62c2af5a2df798304a8eec2c6b22bba1f02f49f56efedb89bc3686ea4692e3a",
+      "run_id": "GraphSAGE__CFG04__FINAL_05",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "2d6c69495cc5f2b48c366aaeb64b0c9fe0908fc0c1fec1855609f91802ac1901",
+      "state_dict_sha256": "ddf528e5dcec21b032a08e8f375c26d372906451d0cb7c7587aded0bc1e4c206"
+    },
+    {
+      "released_checkpoint_sha256": "f54a47809028d83f2d8b611de7a0c0b746bdaaa15ba7e58f646b49d6ec744945",
+      "run_id": "HeteroSAGE__CFG04__FINAL_01",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "724aef08b095dcc7252d8380c6e8260ac0150ceb877c06f85815759222695922",
+      "state_dict_sha256": "281af28c9574c0e21868e01fc530a6325eae8abd623c118303faec65e46dcc0c"
+    },
+    {
+      "released_checkpoint_sha256": "9fab0a30d3889d65099bf25c0df98c549a0b519e0afd4c8296fa2ad9c0945fe0",
+      "run_id": "HeteroSAGE__CFG04__FINAL_02",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "8c027c7e3750a6bd679f0d3983ceb280b12f540f712861018f6ebd298664e849",
+      "state_dict_sha256": "1f9f2121b9c49ee7767d4fce4c8d37959bdcfdc0bcfd404b41685edb2a301205"
+    },
+    {
+      "released_checkpoint_sha256": "7f3fc06f84ce63a8643749c9ba0ef8fc02c28cf843795ba501425106dece4e77",
+      "run_id": "HeteroSAGE__CFG04__FINAL_03",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "a2ad3c3768d9c33e27b4d90292bc31e71812a01149832a6b88c281fbe01e4fd7",
+      "state_dict_sha256": "bacbe762febd7ad2e38ae62457d0a37b2bc93bdcb977ff4495802f93de05c681"
+    },
+    {
+      "released_checkpoint_sha256": "aa79d00c12ad44f22dd5ef50c3438a30e89ef451130cc0edc2462f4e482185a7",
+      "run_id": "HeteroSAGE__CFG04__FINAL_04",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "07ec59594ab78e6cd72dba2d9e8aa26f808d0a72e044522fde9d07e25e3c3c21",
+      "state_dict_sha256": "41c5db9dffe4d13f96f6c853685920b97829dd8c90a9b15b6c9fa4453b69fc92"
+    },
+    {
+      "released_checkpoint_sha256": "654f2a297772f477927325f37d7a5c3ef7f5bb37c9f6db66da79986fd1cbb30a",
+      "run_id": "HeteroSAGE__CFG04__FINAL_05",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "aa9cb5a8af469dfb8a3830d5361317b3cb35cd82358416d3b05108bb5c21cf30",
+      "state_dict_sha256": "40c19eae1b29decaaa70cd0e33b5d90b6b337c52a8297416dcb3646ebfce459d"
+    },
+    {
+      "released_checkpoint_sha256": "db974e7e4fe7e5c4b42c3a089c42ad8888c34c0648635b83dda060ccbc4e6107",
+      "run_id": "RGCN__CFG04__FINAL_01",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "15b5ce79829c345c14de177900884208200cfb8171c6cf680f2035fbd7087ec7",
+      "state_dict_sha256": "5ed21a1c0b302cc87a0edf98f3c5f9eef4d21004dacc854134555ec00006b165"
+    },
+    {
+      "released_checkpoint_sha256": "dd0ae585428620a1adf3f50f4729efe0690655bf7acf03be08e63fc5420c5658",
+      "run_id": "RGCN__CFG04__FINAL_02",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "b0d852c8f392581ae3c7a951ad6f713f2e5d372038a307e91f60ac5b9c67185b",
+      "state_dict_sha256": "f29849b27cd879e05affb2ff52f1f3874a85446f99819e1a79d85a1585b67173"
+    },
+    {
+      "released_checkpoint_sha256": "fa296cccbdc06df88bf8429518368ae09e44ceea977ff02fd8d9b74410b25175",
+      "run_id": "RGCN__CFG04__FINAL_03",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "04e885f70094a41a761b6bd94dcb0653028f98e336802780396a95dc6a914263",
+      "state_dict_sha256": "b675f763cc4da98f148e542751835f9aabd4b14c439eca1cc41ca76ef2f9e861"
+    },
+    {
+      "released_checkpoint_sha256": "163a9c8fb56d797f7b021eb46dba1fd6d861395355f9913f463fe205013c2bbc",
+      "run_id": "RGCN__CFG04__FINAL_04",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "460f6f2df9a040546863dab056159b6ac7134cbbb8296c5bfc70eea163201fc0",
+      "state_dict_sha256": "048457eee13aa47bfb1e570df31e09b377c6b219c644f61e9692851521748b09"
+    },
+    {
+      "released_checkpoint_sha256": "f7b3ba9f4c7258c735b64c9ff32c55773e1020b1fce52a6684049e8705b6962c",
+      "run_id": "RGCN__CFG04__FINAL_05",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "23253cc94255d0e55347c4b269e92399e91d661d8dc5d4f0444274e9e5483013",
+      "state_dict_sha256": "6b079be6b2dfed1888b8fff603b7ee1b3eaecdef6d9befd38a9a3d62765896ef"
+    },
+    {
+      "released_checkpoint_sha256": "791e7faea567e232a357f7f483f612890b81ce284d09b9723b1dd279665455c6",
+      "run_id": "TCMRGAT__CFG04__FINAL_01",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "03767056637cd6953c574c4abac2cb32986e9d962ceb59e2f82be7f9d5790857",
+      "state_dict_sha256": "ea99ff508a6cf398bf357a98a5f0b237d7c95f0e449e3b9cdceb08fe5f1321bc"
+    },
+    {
+      "released_checkpoint_sha256": "779271ad83c990acbc1b6ca03811ef47f6fceba0ab33a7c1db32c5e421b687d1",
+      "run_id": "TCMRGAT__CFG04__FINAL_02",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "f30e8d62e1aa9f7809ea7cacb4f770ad7fe3cc181047b6413a46b01eae13c7fc",
+      "state_dict_sha256": "9552dad31cf3538394d9886d23cb81099790389d2d0ce8401c383c21c50c51d8"
+    },
+    {
+      "released_checkpoint_sha256": "90ad5f8e01b9a5c6802416e34518c720e8a827a58d5c6750370141f92554a00d",
+      "run_id": "TCMRGAT__CFG04__FINAL_03",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "0c476d4b0e3bbd5586fc520ae9c094ce07f10b1eb1f0ce2381a3c8ffd700c461",
+      "state_dict_sha256": "f27efc20bfd6b07121627e6439f475e3fc92f6122d5ce40e09d7e410d4c3c102"
+    },
+    {
+      "released_checkpoint_sha256": "0c608718f4c0b7647e552420a82a54866524c8c0fb6a8c3fb53a31942823a665",
+      "run_id": "TCMRGAT__CFG04__FINAL_04",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "1babdd2065e10b6489510b99ec3a2a1c23c96181455875f7bba1bf526b96ee49",
+      "state_dict_sha256": "a5a82dba516d6414d7099ff9f31f84f0f6e01eeb0265eb2aba3f4d320dd19518"
+    },
+    {
+      "released_checkpoint_sha256": "6b5ff4b895aee278b161929ad71c70386ef70b6d5901243786717dfa168d26bc",
+      "run_id": "TCMRGAT__CFG04__FINAL_05",
+      "sanitized_metadata_path_string_count": 58,
+      "source_checkpoint_sha256": "1895b2007d155bb60b2fa95fa42e4a3c4c99a0666da8ac4445556d0b231c7e65",
+      "state_dict_sha256": "2fcf1745e18c78a72c53b5a4576d2141e991e8ee59182361010e9e4c5db67d2f"
+    }
+  ],
+  "scope": "Metadata path strings only; checkpoint state_dict tensor content was fingerprinted before and after serialization.",
+  "total_sanitized_metadata_path_string_count": 1450,
+  "version": "checkpoint_metadata_path_sanitization_v1"
+}

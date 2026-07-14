@@ -1,0 +1,3 @@
+# Formal Training Protocol v1
+
+Full-batch graph encoding; epoch-specific per-herb 1:1 negatives; BCEWithLogitsLoss; AdamW; gradient clipping at 5.0; max 300 epochs; validation every 5 epochs; patience 12 validation checks; min delta 1e-4; fresh initialization; and last/best-validation checkpoints. Best uses macro AUPR only. Python, NumPy, CPU/CUDA PyTorch, workers, and sampler seeds are fixed; cuDNN deterministic is enabled and benchmark disabled. RGCNConv CUDA scatter-style reductions may vary at floating-point order; exact checkpoint state is required and output consistency uses 1e-6. Any additional nondeterministic CUDA operator must be logged. No test access or C3 checkpoint reuse is allowed.

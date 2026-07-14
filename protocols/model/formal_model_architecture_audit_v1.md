@@ -1,0 +1,3 @@
+# Formal Model Architecture Audit v1
+
+C3 `TCMRGATAdapter`: `ENGINEERING_APPROXIMATION_ONLY`. C3 `HeteroSAGEAdapter`: `ENGINEERING_APPROXIMATION_ONLY`. Their checkpoints and deterministic ID-hash inputs are not formal candidates. The legacy active-path implementation unambiguously defines the TCMRGAT core as multi-head relation-specific GAT, learned relation gates, residual alpha, LayerNorm, two layers, dropout, and a pair decoder. D1 preserves that core and evidence-stratified relation separation while replacing smoke features with the formal feature contract. HeteroSAGE preserves relation-separated SAGE mean aggregation without attention. GraphSAGE and GCN are new homogeneous implementations; RGCN follows the located relation-transform interface.

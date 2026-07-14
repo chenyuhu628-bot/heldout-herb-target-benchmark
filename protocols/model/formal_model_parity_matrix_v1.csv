@@ -1,0 +1,6 @@
+model,same_split,same_supervision,same_validation,same_targets,same_feature_contract,same_negative_sampler,same_epoch_early_stop_optimizer,same_checkpoint_metric_seeds_test_timing,relation_handling,status
+TCMRGAT,True,True,True,True,True,True,True,True,relation-aware,FORMALLY_COMPARABLE
+HeteroSAGE,True,True,True,True,True,True,True,True,relation-aware,FORMALLY_COMPARABLE
+GraphSAGE,True,True,True,True,True,True,True,True,homogeneous collapse,FORMALLY_COMPARABLE
+RGCN,True,True,True,True,True,True,True,True,relation-aware,FORMALLY_COMPARABLE
+GCN,True,True,True,True,True,True,True,True,homogeneous collapse,FORMALLY_COMPARABLE

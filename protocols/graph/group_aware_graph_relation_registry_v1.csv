@@ -1,0 +1,5 @@
+relation_name,source_node_type,target_node_type,directed_or_undirected,reverse_relation_required,raw_edge_count,unique_edge_count,duplicate_count_removed,self_loop_count,invalid_endpoint_count,used_in_training_graph,used_in_validation_query_graph,used_in_test_query_graph,message_passing_role
+herb_contains_compound,herb,compound,directed,True,14985,14985,0,0,0,True,True,True,herb compound attachment
+compound_interacts_target_context,compound,target,directed,True,8835,8835,0,0,0,True,True,True,shared non-herb context
+compound_interacts_target_high_strict,compound,target,directed,True,1456,1456,0,0,0,True,True,True,shared non-herb context
+target_interacts_target,target,target,undirected canonical pair,True,2536,2536,0,0,0,True,True,True,shared non-herb context

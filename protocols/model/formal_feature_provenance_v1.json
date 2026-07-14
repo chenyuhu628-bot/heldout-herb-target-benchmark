@@ -1,0 +1,14 @@
+{
+  "version": "formal_feature_provenance_v1",
+  "upstream_scientific_feature_asset": null,
+  "search_result": "NO_FROZEN_SCIENTIFIC_NODE_FEATURE_ASSET_FOUND",
+  "historical_manifest_status": [
+    "Historical source freeze manifests were not included because they contain local execution paths.",
+    "Available public provenance summaries and identifier-mapping audits are in data/provenance/."
+  ],
+  "formal_contract": "shared trainable compound/target embeddings plus context-conditioned herbs",
+  "nonherb_setting": "transductive",
+  "herb_setting": "inductive unseen-herb",
+  "ID_hash_feature_allowed": false,
+  "herb_target_labels_used_as_features": false
+}

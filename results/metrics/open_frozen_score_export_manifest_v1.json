@@ -1,0 +1,271 @@
+{
+  "candidate_target_count": 2309,
+  "checkpoint_count": 25,
+  "created_at_utc": "2026-07-14T06:56:54.144556+00:00",
+  "device": "cuda:0",
+  "historical_metric_match": true,
+  "model_reselection_performed": false,
+  "post_release_export_only": true,
+  "recorded_positive_pair_count": 8632,
+  "reproduced_metric_count": 275,
+  "retraining_performed": false,
+  "score_artifacts": [
+    {
+      "relative_path": "artifacts/scores/GCN__CFG04__FINAL_01_scores_v1.npz",
+      "run_id": "GCN__CFG04__FINAL_01",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "246dc82f6b4ae8c877b2e304d578d68a785c1c5ffaa5cc09280d76a91091ef27",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GCN__CFG04__FINAL_02_scores_v1.npz",
+      "run_id": "GCN__CFG04__FINAL_02",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "f3b1c0e25365f558318ee0d06efcb9b82ebffc907c0bf586aff032ca64e76157",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GCN__CFG04__FINAL_03_scores_v1.npz",
+      "run_id": "GCN__CFG04__FINAL_03",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "87907303f121bf9603ae307af0e4d33c72f398e9e7f842575f4be5ec436a2a5c",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GCN__CFG04__FINAL_04_scores_v1.npz",
+      "run_id": "GCN__CFG04__FINAL_04",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "28c1d2c55ff5f216766e967de6eca105315e76228a808b7f814b4b24fc7072a3",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GCN__CFG04__FINAL_05_scores_v1.npz",
+      "run_id": "GCN__CFG04__FINAL_05",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "44964984c32d27e8c85566e703be2d819b71ab57ad99f2f1476d39eb42b20caa",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GraphSAGE__CFG04__FINAL_01_scores_v1.npz",
+      "run_id": "GraphSAGE__CFG04__FINAL_01",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "20169194cac85490de1846ef9022e6036f3f4b65cbbc5f22ac995b9b0c1df74f",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GraphSAGE__CFG04__FINAL_02_scores_v1.npz",
+      "run_id": "GraphSAGE__CFG04__FINAL_02",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "92d467255d2a5506f372bc148bb53c1577d5f59bb13bca74b5c9e9c5eb3f5373",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GraphSAGE__CFG04__FINAL_03_scores_v1.npz",
+      "run_id": "GraphSAGE__CFG04__FINAL_03",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "7c6714a0b31bca9119908004e81e59047c785685eb60d8c0ce6f30cf332b9267",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GraphSAGE__CFG04__FINAL_04_scores_v1.npz",
+      "run_id": "GraphSAGE__CFG04__FINAL_04",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "92c5b17120ace0a871db13236ca2b74fc726d817c30e6d3221ea58aae29d0b67",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/GraphSAGE__CFG04__FINAL_05_scores_v1.npz",
+      "run_id": "GraphSAGE__CFG04__FINAL_05",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "f556eacd78938741c5363fd48b142f34fedd1f5e08c378ea3db3c567532cf535",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/HeteroSAGE__CFG04__FINAL_01_scores_v1.npz",
+      "run_id": "HeteroSAGE__CFG04__FINAL_01",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "0118c1f47a72f29770a801ae62c70111c3d137dfd13fc36d2c62c565abd503c9",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/HeteroSAGE__CFG04__FINAL_02_scores_v1.npz",
+      "run_id": "HeteroSAGE__CFG04__FINAL_02",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "5e4419d8c33a8d90b91d03ff680b56d97d86af57981f9d92ffce5184cdbd2cdb",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/HeteroSAGE__CFG04__FINAL_03_scores_v1.npz",
+      "run_id": "HeteroSAGE__CFG04__FINAL_03",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "97522b26953eaa94c0579e42af8acc94bd1b2d5ce6cdadb2f558fbb6a143e8c4",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/HeteroSAGE__CFG04__FINAL_04_scores_v1.npz",
+      "run_id": "HeteroSAGE__CFG04__FINAL_04",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "63dc9b11eb19049f7fe910bbd7fc107ad0ecd24bad5f2d4081e096645b90f878",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/HeteroSAGE__CFG04__FINAL_05_scores_v1.npz",
+      "run_id": "HeteroSAGE__CFG04__FINAL_05",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "740cecbccb1944114674e15c1a04b4069179a06fb1a8b9968ca6d85b10c48c60",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/RGCN__CFG04__FINAL_01_scores_v1.npz",
+      "run_id": "RGCN__CFG04__FINAL_01",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "9e1131be2f660ff9e8e57e8349afa998ce922892639168c01c334ce1ee27b2d4",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/RGCN__CFG04__FINAL_02_scores_v1.npz",
+      "run_id": "RGCN__CFG04__FINAL_02",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "a30ffb48529710f5fe17fa77f80d593723b7224b355e60889762c6b45a498388",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/RGCN__CFG04__FINAL_03_scores_v1.npz",
+      "run_id": "RGCN__CFG04__FINAL_03",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "642506d5d69b9b3a22ae6dfbf794c0e9cbfce59cb33399336d74bdc00c8f70e3",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/RGCN__CFG04__FINAL_04_scores_v1.npz",
+      "run_id": "RGCN__CFG04__FINAL_04",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "1f3b92f2e93aebcb379a7796e04895739d34c87e0e6a1c321ceaf6efe72f7023",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/RGCN__CFG04__FINAL_05_scores_v1.npz",
+      "run_id": "RGCN__CFG04__FINAL_05",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "03f5fe744cf187185db3dd73d22231c8217e569c9e5cdf9c877f15253bbcb40c",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/TCMRGAT__CFG04__FINAL_01_scores_v1.npz",
+      "run_id": "TCMRGAT__CFG04__FINAL_01",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "ea15095eee21bbfbcd0fd6c4bef5b6822a6dfc827e70972f6514c3273dbbf060",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/TCMRGAT__CFG04__FINAL_02_scores_v1.npz",
+      "run_id": "TCMRGAT__CFG04__FINAL_02",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "b249c8c837fb9c97b032c1ff1df968ac83338281ff83ed0bbaece8fe42abd401",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/TCMRGAT__CFG04__FINAL_03_scores_v1.npz",
+      "run_id": "TCMRGAT__CFG04__FINAL_03",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "ebd454b36e5cec5a8c723d57021a234c25d4e0a47c03b5da20b2252160f2c63b",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/TCMRGAT__CFG04__FINAL_04_scores_v1.npz",
+      "run_id": "TCMRGAT__CFG04__FINAL_04",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "cccc987044c30d44a1323c6aea6e522b8519847dc886b67893487d11625fc3e6",
+      "shape": [
+        67,
+        2309
+      ]
+    },
+    {
+      "relative_path": "artifacts/scores/TCMRGAT__CFG04__FINAL_05_scores_v1.npz",
+      "run_id": "TCMRGAT__CFG04__FINAL_05",
+      "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+      "sha256": "0164d51240abe4aaca41b09496cfd03d650127b76d1357c44bbf46b8e40bd9fe",
+      "shape": [
+        67,
+        2309
+      ]
+    }
+  ],
+  "score_semantics": "raw_decoder_logits; not calibrated probabilities",
+  "test_herb_count": 67,
+  "test_set_status": "public fixed test set; historical evaluation was sealed before disclosure",
+  "tuning_performed": false,
+  "verification_atol": 1e-06,
+  "verification_rtol": 1e-06,
+  "version": "open_frozen_score_export_v1"
+}
